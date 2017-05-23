@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{15DCA655-1805-0809-0001-032B845EB021}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "RaspDrone_Client",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
