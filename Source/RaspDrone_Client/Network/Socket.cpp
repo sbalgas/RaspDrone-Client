@@ -5,24 +5,52 @@
 
 
 // Sets default values
-ASocket::ASocket()
-{
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
+ASocket::ASocket(){
+	PrimaryActorTick.bCanEverTick = false;
 }
 
 // Called when the game starts or when spawned
-void ASocket::BeginPlay()
-{
+void ASocket::BeginPlay(){
 	Super::BeginPlay();
-	
+}
+
+void ASocket::BeginDestroy(){
+	Super::BeginDestroy();
+	ListenRunnable::Shutdown();
 }
 
 // Called every frame
-void ASocket::Tick(float DeltaTime)
-{
+void ASocket::Tick(float DeltaTime){
 	Super::Tick(DeltaTime);
-
 }
 
+bool ASocket::StartTCPReceiver(const FString& address, const int32 port) {
+	if (this->_startTCPReceiver(address, port)){
+		ListenRunnable::JoyInit(Socket);
+		return true;
+	}
+	return false;
+}
+
+bool ASocket::_startTCPReceiver(const FString& address, const int32 port){
+	Socket = ISocketSubsystem::Get(PLATFORM_SOCKETSUBSYSTEM)->CreateSocket(NAME_Stream, TEXT("default"), false);
+	FIPv4Address ip;
+
+	if (!FIPv4Address::Parse(address, ip))
+		return false;
+
+	TSharedRef<FInternetAddr> addr = ISocketSubsystem::Get(PLATFORM_SOCKETSUBSYSTEM)->CreateInternetAddr();
+	addr->SetIp(ip.Value);
+	addr->SetPort(port);
+
+	return Socket->Connect(*addr);
+}
+
+bool ASocket::SendMessage(FString string){
+
+	TCHAR *serializedChar = string.GetCharArray().GetData();
+	int32 size = FCString::Strlen(serializedChar);
+	int32 sent = 0;
+
+	return Socket->Send((uint8*)TCHAR_TO_UTF8(serializedChar), size, sent);
+}
