@@ -6,7 +6,7 @@ public class RaspDrone_Client : ModuleRules
 {
 	public RaspDrone_Client(TargetInfo Target)
 	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "Sockets", "Networking"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

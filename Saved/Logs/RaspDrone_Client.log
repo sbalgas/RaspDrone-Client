@@ -2599,3 +2599,252 @@ LogInit: Object subsystem initialized
 [2017.05.23-18.36.20:242][159]SourceControl: Información 	Saved/
 [2017.05.23-18.36.20:242][159]SourceControl: Información nothing added to commit but untracked files present (use "git add" to track)
 [2017.05.23-18.36.20:471][170]LogLinux: Setting swap interval to 'Immediate'
+[2017.05.23-18.57.38:811][870]Recompiling RaspDrone_Client...
+[2017.05.23-18.57.38:812][870]Launching UnrealBuildTool... [/home/sbalgass/apps/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe RaspDrone_Client -ModuleWithSuffix RaspDrone_Client 430 Linux Development -editorrecompile -canskiplink "/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/RaspDrone_Client.uproject"  -progress]
+[2017.05.23-18.57.38:831][870]Warning: Starting HotReload took  0.1s.
+[2017.05.23-18.57.38:968][878]LogLinux: Setting swap interval to 'Immediate'
+[2017.05.23-18.58.18:276][279]CompilerResultsLog: New page: Compilación - 23/5/2017 12:58:18
+[2017.05.23-18.58.18:359][279]CompilerResultsLog: Información 
+[2017.05.23-18.58.18:405][279]CompilerResultsLog: Información Running Mono...
+[2017.05.23-18.58.18:405][279]CompilerResultsLog: Información 
+[2017.05.23-18.58.18:406][279]CompilerResultsLog: Información ~/apps/UnrealEngine/Engine ~/apps/UnrealEngine/Engine/Binaries/Linux
+[2017.05.23-18.58.18:406][279]CompilerResultsLog: Información Using clang version '3.5.0' (string), 3 (major), 5 (minor), 0 (patch)
+[2017.05.23-18.58.18:406][279]CompilerResultsLog: Información Compiling game modules for hot reload
+[2017.05.23-18.58.18:406][279]CompilerResultsLog: Información @progress push 5%
+[2017.05.23-18.58.18:406][279]CompilerResultsLog: Información @progress 'Generating code...' 0%
+[2017.05.23-18.58.18:406][279]CompilerResultsLog: Información Building UnrealHeaderTool...
+[2017.05.23-18.58.18:407][279]CompilerResultsLog: Información Using clang version '3.5.0' (string), 3 (major), 5 (minor), 0 (patch)
+[2017.05.23-18.58.18:407][279]CompilerResultsLog: Información Target is up to date
+[2017.05.23-18.58.18:407][279]CompilerResultsLog: Información Total build time: 0,30 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2017.05.23-18.58.18:407][279]CompilerResultsLog: Información @progress 'Generating code...' 33%
+[2017.05.23-18.58.18:407][279]CompilerResultsLog: Información Parsing headers for RaspDrone_ClientEditor
+[2017.05.23-18.58.18:407][279]CompilerResultsLog: Información   Running UnrealHeaderTool "/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/RaspDrone_Client.uproject" "/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Intermediate/Build/Linux/B4D820EA/RaspDrone_ClientEditor/Development/RaspDrone_ClientEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+[2017.05.23-18.58.18:408][279]CompilerResultsLog: Información Using binned.
+[2017.05.23-18.58.18:408][279]CompilerResultsLog: Información LogPlatformFile: Not using cached read wrapper
+[2017.05.23-18.58.18:408][279]CompilerResultsLog: Información LogInit:Display: RandInit(-1873514492) SRandInit(-1873514492).
+[2017.05.23-18.58.18:408][279]CompilerResultsLog: Información LogTaskGraph: Started task graph with 4 named threads and 5 total threads with 1 sets of task threads.
+[2017.05.23-18.58.18:408][279]CompilerResultsLog: Información LogDevObjectVersion: Number of dev versions registered: 14
+[2017.05.23-18.58.18:408][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+[2017.05.23-18.58.18:409][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+[2017.05.23-18.58.18:409][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+[2017.05.23-18.58.18:409][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+[2017.05.23-18.58.18:409][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+[2017.05.23-18.58.18:409][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+[2017.05.23-18.58.18:409][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+[2017.05.23-18.58.18:410][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+[2017.05.23-18.58.18:410][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+[2017.05.23-18.58.18:410][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+[2017.05.23-18.58.18:410][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+[2017.05.23-18.58.18:410][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+[2017.05.23-18.58.18:410][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+[2017.05.23-18.58.18:411][279]CompilerResultsLog: Información LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+[2017.05.23-18.58.18:411][279]CompilerResultsLog: Información [2017.05.23-18.57.48:967][  0]LogLinux: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_REALTIME will be used.
+[2017.05.23-18.58.18:411][279]CompilerResultsLog: Información [2017.05.23-18.57.48:968][  0]LogTextLocalizationManager: No translations for ('') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.23-18.58.18:411][279]CompilerResultsLog: Información [2017.05.23-18.57.48:968][  0]LogCompile: UHT Command Line: /home/sbalgass/apps/UnrealEngine/Engine/Source/../Binaries/Linux/UnrealHeaderTool "/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/RaspDrone_Client.uproject" "/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Intermediate/Build/Linux/B4D820EA/RaspDrone_ClientEditor/Development/RaspDrone_ClientEditor.uhtmanifest" "-LogCmds=loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+[2017.05.23-18.58.18:412][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile: Loaded manifest: /home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Intermediate/Build/Linux/B4D820EA/RaspDrone_ClientEditor/Development/RaspDrone_ClientEditor.uhtmanifest
+[2017.05.23-18.58.18:412][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile: Manifest.IsGameTarget=True
+[2017.05.23-18.58.18:412][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile: Manifest.RootLocalPath=/home/sbalgass/apps/UnrealEngine
+[2017.05.23-18.58.18:412][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile: Manifest.RootBuildPath=/home/sbalgass/apps/UnrealEngine/
+[2017.05.23-18.58.18:413][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile: Manifest.TargetName=RaspDrone_ClientEditor
+[2017.05.23-18.58.18:413][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile: Manifest.Modules=12
+[2017.05.23-18.58.18:413][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   CoreUObject
+[2017.05.23-18.58.18:413][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .BaseDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/
+[2017.05.23-18.58.18:413][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .IncludeBase=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/
+[2017.05.23-18.58.18:413][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CoreUObject/
+[2017.05.23-18.58.18:414][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:414][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CoreUObject/CoreUObject.generated
+[2017.05.23-18.58.18:414][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .ModuleType=EngineRuntime
+[2017.05.23-18.58.18:414][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   InputCore
+[2017.05.23-18.58.18:414][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .BaseDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/InputCore/
+[2017.05.23-18.58.18:415][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .IncludeBase=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/InputCore/
+[2017.05.23-18.58.18:415][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InputCore/
+[2017.05.23-18.58.18:415][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:415][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InputCore/InputCore.generated
+[2017.05.23-18.58.18:416][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .ModuleType=EngineRuntime
+[2017.05.23-18.58.18:416][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   SlateCore
+[2017.05.23-18.58.18:416][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .BaseDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore/
+[2017.05.23-18.58.18:416][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .IncludeBase=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore/
+[2017.05.23-18.58.18:416][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlateCore/
+[2017.05.23-18.58.18:416][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:417][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlateCore/SlateCore.generated
+[2017.05.23-18.58.18:417][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .ModuleType=EngineRuntime
+[2017.05.23-18.58.18:417][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   Slate
+[2017.05.23-18.58.18:417][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .BaseDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/
+[2017.05.23-18.58.18:418][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .IncludeBase=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/
+[2017.05.23-18.58.18:418][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Slate/
+[2017.05.23-18.58.18:418][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:418][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Slate/Slate.generated
+[2017.05.23-18.58.18:419][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .ModuleType=EngineRuntime
+[2017.05.23-18.58.18:419][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   EngineMessages
+[2017.05.23-18.58.18:419][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .BaseDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/EngineMessages/
+[2017.05.23-18.58.18:419][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .IncludeBase=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/EngineMessages/
+[2017.05.23-18.58.18:419][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EngineMessages/
+[2017.05.23-18.58.18:420][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:420][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EngineMessages/EngineMessages.generated
+[2017.05.23-18.58.18:420][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   .ModuleType=EngineRuntime
+[2017.05.23-18.58.18:420][279]CompilerResultsLog: Información [2017.05.23-18.57.48:971][  0]LogCompile:   MessagingRpc
+[2017.05.23-18.58.18:420][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .BaseDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MessagingRpc/
+[2017.05.23-18.58.18:421][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .IncludeBase=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MessagingRpc/
+[2017.05.23-18.58.18:421][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MessagingRpc/
+[2017.05.23-18.58.18:422][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:422][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MessagingRpc/MessagingRpc.generated
+[2017.05.23-18.58.18:423][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .ModuleType=EngineRuntime
+[2017.05.23-18.58.18:423][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   PortalRpc
+[2017.05.23-18.58.18:424][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .BaseDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Portal/Rpc/
+[2017.05.23-18.58.18:424][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .IncludeBase=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Portal/Rpc/
+[2017.05.23-18.58.18:425][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PortalRpc/
+[2017.05.23-18.58.18:425][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:426][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PortalRpc/PortalRpc.generated
+[2017.05.23-18.58.18:426][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .ModuleType=EngineRuntime
+[2017.05.23-18.58.18:427][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   PortalServices
+[2017.05.23-18.58.18:427][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .BaseDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Portal/Services/
+[2017.05.23-18.58.18:428][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .IncludeBase=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Portal/Services/
+[2017.05.23-18.58.18:428][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PortalServices/
+[2017.05.23-18.58.18:429][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:429][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PortalServices/PortalServices.generated
+[2017.05.23-18.58.18:430][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .ModuleType=EngineRuntime
+[2017.05.23-18.58.18:430][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   EngineSettings
+[2017.05.23-18.58.18:431][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .BaseDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/EngineSettings/
+[2017.05.23-18.58.18:431][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .IncludeBase=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/EngineSettings/
+[2017.05.23-18.58.18:432][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EngineSettings/
+[2017.05.23-18.58.18:432][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:433][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EngineSettings/EngineSettings.generated
+[2017.05.23-18.58.18:433][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .ModuleType=EngineRuntime
+[2017.05.23-18.58.18:433][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   PacketHandler
+[2017.05.23-18.58.18:433][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .BaseDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/PacketHandlers/PacketHandler/
+[2017.05.23-18.58.18:434][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .IncludeBase=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/PacketHandlers/PacketHandler/
+[2017.05.23-18.58.18:434][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PacketHandler/
+[2017.05.23-18.58.18:434][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:435][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PacketHandler/PacketHandler.generated
+[2017.05.23-18.58.18:435][279]CompilerResultsLog: Información [2017.05.23-18.57.48:972][  0]LogCompile:   .ModuleType=EngineRuntime
+[2017.05.23-18.58.18:435][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   Engine
+[2017.05.23-18.58.18:435][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .BaseDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Engine/
+[2017.05.23-18.58.18:435][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .IncludeBase=/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Engine/
+[2017.05.23-18.58.18:436][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine/
+[2017.05.23-18.58.18:436][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:436][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine/Engine.generated
+[2017.05.23-18.58.18:436][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .ModuleType=EngineRuntime
+[2017.05.23-18.58.18:437][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   RaspDrone_Client
+[2017.05.23-18.58.18:437][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .BaseDirectory=/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Source/RaspDrone_Client/
+[2017.05.23-18.58.18:437][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .IncludeBase=/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Source/RaspDrone_Client/
+[2017.05.23-18.58.18:437][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .GeneratedIncludeDirectory=/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RaspDrone_Client/
+[2017.05.23-18.58.18:438][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .SaveExportedHeaders=True
+[2017.05.23-18.58.18:438][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .GeneratedCPPFilenameBase=/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RaspDrone_Client/RaspDrone_Client.generated
+[2017.05.23-18.58.18:438][279]CompilerResultsLog: Información [2017.05.23-18.57.48:973][  0]LogCompile:   .ModuleType=GameRuntime
+[2017.05.23-18.58.18:438][279]CompilerResultsLog: Información [2017.05.23-18.57.48:976][  0]LogCompile: Preparsed module /Script/CoreUObject containing 3 files(s) in 0.00 secs.
+[2017.05.23-18.58.18:438][279]CompilerResultsLog: Información [2017.05.23-18.57.48:977][  0]LogCompile: Preparsed module /Script/InputCore containing 1 files(s) in 0.00 secs.
+[2017.05.23-18.58.18:439][279]CompilerResultsLog: Información [2017.05.23-18.57.48:990][  0]LogCompile: Preparsed module /Script/SlateCore containing 19 files(s) in 0.01 secs.
+[2017.05.23-18.58.18:439][279]CompilerResultsLog: Información [2017.05.23-18.57.48:995][  0]LogCompile: Preparsed module /Script/Slate containing 18 files(s) in 0.00 secs.
+[2017.05.23-18.58.18:439][279]CompilerResultsLog: Información [2017.05.23-18.57.48:995][  0]LogCompile: Preparsed module /Script/EngineMessages containing 1 files(s) in 0.00 secs.
+[2017.05.23-18.58.18:439][279]CompilerResultsLog: Información [2017.05.23-18.57.48:995][  0]LogCompile: Preparsed module /Script/MessagingRpc containing 2 files(s) in 0.00 secs.
+[2017.05.23-18.58.18:440][279]CompilerResultsLog: Información [2017.05.23-18.57.48:995][  0]LogCompile: Preparsed module /Script/PortalRpc containing 1 files(s) in 0.00 secs.
+[2017.05.23-18.58.18:440][279]CompilerResultsLog: Información [2017.05.23-18.57.48:996][  0]LogCompile: Preparsed module /Script/PortalServices containing 1 files(s) in 0.00 secs.
+[2017.05.23-18.58.18:440][279]CompilerResultsLog: Información [2017.05.23-18.57.48:997][  0]LogCompile: Preparsed module /Script/EngineSettings containing 7 files(s) in 0.00 secs.
+[2017.05.23-18.58.18:440][279]CompilerResultsLog: Información [2017.05.23-18.57.48:997][  0]LogCompile: Preparsed module /Script/PacketHandler containing 1 files(s) in 0.00 secs.
+[2017.05.23-18.58.18:441][279]CompilerResultsLog: Información [2017.05.23-18.57.49:392][  0]LogCompile: Preparsed module /Script/Engine containing 933 files(s) in 0.39 secs.
+[2017.05.23-18.58.18:441][279]CompilerResultsLog: Información [2017.05.23-18.57.49:392][  0]LogCompile: File /home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Source/RaspDrone_Client/Network/Socket.h is newer than last timestamp. Regenerating reflection data for module RaspDrone_Client.
+[2017.05.23-18.58.18:441][279]CompilerResultsLog: Información [2017.05.23-18.57.49:392][  0]LogCompile: Preparsed module /Script/RaspDrone_Client containing 2 files(s) in 0.00 secs.
+[2017.05.23-18.58.18:441][279]CompilerResultsLog: Información [2017.05.23-18.57.49:392][  0]LogCompile: Found 0 script generator plugins.
+[2017.05.23-18.58.18:442][279]CompilerResultsLog: Información [2017.05.23-18.57.49:404][  0]LogCompile: Exporting native class declarations for /Script/CoreUObject
+[2017.05.23-18.58.18:442][279]CompilerResultsLog: Información [2017.05.23-18.57.49:410][  0]LogCompile: Autogenerating boilerplate cpp: CoreUObject.generated.cpp
+[2017.05.23-18.58.18:442][279]CompilerResultsLog: Información [2017.05.23-18.57.49:426][  0]LogCompile: Success: Parsed 1436 line(s), 85 statement(s) in 0.02 secs.
+[2017.05.23-18.58.18:442][279]CompilerResultsLog: Información [2017.05.23-18.57.49:428][  0]LogCompile: Exporting native class declarations for /Script/InputCore
+[2017.05.23-18.58.18:442][279]CompilerResultsLog: Información [2017.05.23-18.57.49:430][  0]LogCompile: Autogenerating boilerplate cpp: InputCore.generated.cpp
+[2017.05.23-18.58.18:443][279]CompilerResultsLog: Información [2017.05.23-18.57.49:430][  0]LogCompile: Success: Parsed 571 line(s), 21 statement(s) in 0.00 secs.
+[2017.05.23-18.58.18:443][279]CompilerResultsLog: Información [2017.05.23-18.57.49:465][  0]LogCompile: Exporting native class declarations for /Script/SlateCore
+[2017.05.23-18.58.18:443][279]CompilerResultsLog: Información [2017.05.23-18.57.49:499][  0]LogCompile: Autogenerating boilerplate cpp: SlateCore.generated.cpp
+[2017.05.23-18.58.18:443][279]CompilerResultsLog: Información [2017.05.23-18.57.49:505][  0]LogCompile: Success: Parsed 6342 line(s), 324 statement(s) in 0.04 secs.
+[2017.05.23-18.58.18:443][279]CompilerResultsLog: Información [2017.05.23-18.57.49:518][  0]LogCompile: Exporting native class declarations for /Script/Slate
+[2017.05.23-18.58.18:444][279]CompilerResultsLog: Información [2017.05.23-18.57.49:524][  0]LogCompile: Autogenerating boilerplate cpp: Slate.generated.cpp
+[2017.05.23-18.58.18:444][279]CompilerResultsLog: Información [2017.05.23-18.57.49:526][  0]LogCompile: Success: Parsed 1846 line(s), 219 statement(s) in 0.01 secs.
+[2017.05.23-18.58.18:444][279]CompilerResultsLog: Información [2017.05.23-18.57.49:528][  0]LogCompile: Exporting native class declarations for /Script/EngineMessages
+[2017.05.23-18.58.18:444][279]CompilerResultsLog: Información [2017.05.23-18.57.49:529][  0]LogCompile: Autogenerating boilerplate cpp: EngineMessages.generated.cpp
+[2017.05.23-18.58.18:444][279]CompilerResultsLog: Información [2017.05.23-18.57.49:529][  0]LogCompile: Success: Parsed 182 line(s), 12 statement(s) in 0.00 secs.
+[2017.05.23-18.58.18:445][279]CompilerResultsLog: Información [2017.05.23-18.57.49:531][  0]LogCompile: Exporting native class declarations for /Script/MessagingRpc
+[2017.05.23-18.58.18:445][279]CompilerResultsLog: Información [2017.05.23-18.57.49:531][  0]LogCompile: Autogenerating boilerplate cpp: MessagingRpc.generated.cpp
+[2017.05.23-18.58.18:445][279]CompilerResultsLog: Información [2017.05.23-18.57.49:542][  0]LogCompile: Success: Parsed 113 line(s), 15 statement(s) in 0.01 secs.
+[2017.05.23-18.58.18:445][279]CompilerResultsLog: Información [2017.05.23-18.57.49:543][  0]LogCompile: Exporting native class declarations for /Script/PortalRpc
+[2017.05.23-18.58.18:445][279]CompilerResultsLog: Información [2017.05.23-18.57.49:543][  0]LogCompile: Autogenerating boilerplate cpp: PortalRpc.generated.cpp
+[2017.05.23-18.58.18:446][279]CompilerResultsLog: Información [2017.05.23-18.57.49:543][  0]LogCompile: Success: Parsed 62 line(s), 7 statement(s) in 0.00 secs.
+[2017.05.23-18.58.18:446][279]CompilerResultsLog: Información [2017.05.23-18.57.49:545][  0]LogCompile: Exporting native class declarations for /Script/PortalServices
+[2017.05.23-18.58.18:446][279]CompilerResultsLog: Información [2017.05.23-18.57.49:545][  0]LogCompile: Autogenerating boilerplate cpp: PortalServices.generated.cpp
+[2017.05.23-18.58.18:446][279]CompilerResultsLog: Información [2017.05.23-18.57.49:546][  0]LogCompile: Success: Parsed 156 line(s), 12 statement(s) in 0.00 secs.
+[2017.05.23-18.58.18:446][279]CompilerResultsLog: Información [2017.05.23-18.57.49:554][  0]LogCompile: Exporting native class declarations for /Script/EngineSettings
+[2017.05.23-18.58.18:447][279]CompilerResultsLog: Información [2017.05.23-18.57.49:558][  0]LogCompile: Autogenerating boilerplate cpp: EngineSettings.generated.cpp
+[2017.05.23-18.58.18:447][279]CompilerResultsLog: Información [2017.05.23-18.57.49:560][  0]LogCompile: Success: Parsed 508 line(s), 133 statement(s) in 0.01 secs.
+[2017.05.23-18.58.18:447][279]CompilerResultsLog: Información [2017.05.23-18.57.49:560][  0]LogCompile: Exporting native class declarations for /Script/PacketHandler
+[2017.05.23-18.58.18:447][279]CompilerResultsLog: Información [2017.05.23-18.57.49:561][  0]LogCompile: Autogenerating boilerplate cpp: PacketHandler.generated.cpp
+[2017.05.23-18.58.18:447][279]CompilerResultsLog: Información [2017.05.23-18.57.49:562][  0]LogCompile: Success: Parsed 25 line(s), 12 statement(s) in 0.00 secs.
+[2017.05.23-18.58.18:447][279]CompilerResultsLog: Información [2017.05.23-18.57.51:370][  0]LogCompile: Exporting native class declarations for /Script/Engine
+[2017.05.23-18.58.18:448][279]CompilerResultsLog: Información [2017.05.23-18.57.53:407][  0]LogCompile: Autogenerating boilerplate cpp: Engine.generated.cpp
+[2017.05.23-18.58.18:448][279]CompilerResultsLog: Información [2017.05.23-18.57.54:372][  0]LogCompile: Success: Parsed 158572 line(s), 35030 statement(s) in 3.00 secs.
+[2017.05.23-18.58.18:448][279]CompilerResultsLog: Información [2017.05.23-18.57.54:374][  0]LogCompile: Exporting native class declarations for /Script/RaspDrone_Client
+[2017.05.23-18.58.18:448][279]CompilerResultsLog: Información [2017.05.23-18.57.54:421][  0]LogCompile: Autogenerating boilerplate cpp: RaspDrone_Client.generated.cpp
+[2017.05.23-18.58.18:448][279]CompilerResultsLog: Información [2017.05.23-18.57.54:426][  0]LogCompile: Exported updated C++ header: /home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RaspDrone_Client/Socket.generated.h
+[2017.05.23-18.58.18:449][279]CompilerResultsLog: Información [2017.05.23-18.57.54:426][  0]LogCompile: Exported updated C++ header: /home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RaspDrone_Client/RaspDrone_Client.generated.cpp
+[2017.05.23-18.58.18:449][279]CompilerResultsLog: Información [2017.05.23-18.57.54:426][  0]LogCompile: Success: Parsed 65 line(s), 26 statement(s) in 0.05 secs.
+[2017.05.23-18.58.18:449][279]CompilerResultsLog: Información [2017.05.23-18.57.54:428][  0]LogCompile: Preparsing 12 modules took 0.42 seconds
+[2017.05.23-18.58.18:449][279]CompilerResultsLog: Información [2017.05.23-18.57.54:428][  0]LogCompile: Parsing took 1.89 seconds
+[2017.05.23-18.58.18:450][279]CompilerResultsLog: Información [2017.05.23-18.57.54:428][  0]LogCompile: Code generation took 3.15 seconds
+[2017.05.23-18.58.18:450][279]CompilerResultsLog: Información [2017.05.23-18.57.54:428][  0]LogCompile: ScriptPlugin overhead was 0.00 seconds
+[2017.05.23-18.58.18:450][279]CompilerResultsLog: Información [2017.05.23-18.57.54:428][  0]LogCompile: Macroize time was 0.06 seconds
+[2017.05.23-18.58.18:450][279]CompilerResultsLog: Información [2017.05.23-18.57.54:472][  0]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.23-18.58.18:450][279]CompilerResultsLog: Información Reflection code generated for RaspDrone_ClientEditor in 6,2263754 seconds
+[2017.05.23-18.58.18:450][279]CompilerResultsLog: Información @progress 'Generating code...' 67%
+[2017.05.23-18.58.18:451][279]CompilerResultsLog: Información @progress 'Generating code...' 100%
+[2017.05.23-18.58.18:451][279]CompilerResultsLog: Información @progress pop
+[2017.05.23-18.58.18:451][279]CompilerResultsLog: Información Using bundled libc++ standard C++ library.
+[2017.05.23-18.58.18:451][279]CompilerResultsLog: Información Performing 4 actions (4 in parallel)
+[2017.05.23-18.58.18:451][279]CompilerResultsLog: Información @progress 'Compiling C++ source code...' 0%
+[2017.05.23-18.58.18:451][279]CompilerResultsLog: Información [2/4] Compile Socket.cpp
+[2017.05.23-18.58.18:451][279]CompilerResultsLog: Información [3/4] Compile RaspDrone_Client.generated.cpp
+[2017.05.23-18.58.18:452][279]CompilerResultsLog: Información [1/4] Compile ListenRunnable.cpp
+[2017.05.23-18.58.18:452][279]CompilerResultsLog: Información @progress 'Compiling C++ source code...' 20%
+[2017.05.23-18.58.18:452][279]CompilerResultsLog: Información @progress 'Compiling C++ source code...' 40%
+[2017.05.23-18.58.18:452][279]CompilerResultsLog: Información @progress 'Compiling C++ source code...' 80%
+[2017.05.23-18.58.18:452][279]CompilerResultsLog: Información ERROR: UBT ERROR: Failed to produce item: /home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Binaries/Linux/libUE4Editor-RaspDrone_Client-430.so
+[2017.05.23-18.58.18:452][279]CompilerResultsLog: Información Total build time: 37,57 seconds (Local executor: 0,00 seconds)
+[2017.05.23-18.58.18:642][279]LogMainFrame: MainFrame: Module compiling took 39.787 seconds
+[2017.05.23-18.58.18:685][279]Warning: HotReload failed, recompile failed
+[2017.05.23-18.59.56:000][114]Recompiling RaspDrone_Client...
+[2017.05.23-18.59.56:000][114]Launching UnrealBuildTool... [/home/sbalgass/apps/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe RaspDrone_Client -ModuleWithSuffix RaspDrone_Client 9425 Linux Development -editorrecompile -canskiplink "/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/RaspDrone_Client.uproject"  -progress]
+[2017.05.23-18.59.56:021][114]Warning: Starting HotReload took  0.5s.
+[2017.05.23-18.59.56:051][115]LogLinux: Setting swap interval to 'Immediate'
+[2017.05.23-19.03.35:135][182]CompilerResultsLog: New page: Compilación - 23/5/2017 13:03:35
+[2017.05.23-19.03.35:595][182]CompilerResultsLog: Información 
+[2017.05.23-19.03.35:641][182]CompilerResultsLog: Información Running Mono...
+[2017.05.23-19.03.35:641][182]CompilerResultsLog: Información 
+[2017.05.23-19.03.35:641][182]CompilerResultsLog: Información ~/apps/UnrealEngine/Engine ~/apps/UnrealEngine/Engine/Binaries/Linux
+[2017.05.23-19.03.35:641][182]CompilerResultsLog: Información Using clang version '3.5.0' (string), 3 (major), 5 (minor), 0 (patch)
+[2017.05.23-19.03.35:641][182]CompilerResultsLog: Información Compiling game modules for hot reload
+[2017.05.23-19.03.35:642][182]CompilerResultsLog: Información @progress push 5%
+[2017.05.23-19.03.35:642][182]CompilerResultsLog: Información @progress 'Generating code...' 0%
+[2017.05.23-19.03.35:642][182]CompilerResultsLog: Información @progress 'Generating code...' 67%
+[2017.05.23-19.03.35:642][182]CompilerResultsLog: Información @progress 'Generating code...' 100%
+[2017.05.23-19.03.35:642][182]CompilerResultsLog: Información @progress pop
+[2017.05.23-19.03.35:642][182]CompilerResultsLog: Información Using bundled libc++ standard C++ library.
+[2017.05.23-19.03.35:642][182]CompilerResultsLog: Información Performing 7 actions (4 in parallel)
+[2017.05.23-19.03.35:642][182]CompilerResultsLog: Información @progress 'Compiling C++ source code...' 0%
+[2017.05.23-19.03.35:643][182]CompilerResultsLog: Información [1/7] Compile PCH.RaspDrone_Client.h
+[2017.05.23-19.03.35:643][182]CompilerResultsLog: Información @progress 'Compiling C++ source code...' 12%
+[2017.05.23-19.03.35:643][182]CompilerResultsLog: Información [5/7] Compile Socket.cpp
+[2017.05.23-19.03.35:643][182]CompilerResultsLog: Información [3/7] Compile RaspDrone_ClientGameModeBase.cpp
+[2017.05.23-19.03.35:643][182]CompilerResultsLog: Información [4/7] Compile ListenRunnable.cpp
+[2017.05.23-19.03.35:643][182]CompilerResultsLog: Información [2/7] Compile RaspDrone_Client.cpp
+[2017.05.23-19.03.35:643][182]CompilerResultsLog: Información @progress 'Compiling C++ source code...' 25%
+[2017.05.23-19.03.35:643][182]CompilerResultsLog: Información [6/7] Compile RaspDrone_Client.generated.cpp
+[2017.05.23-19.03.35:643][182]CompilerResultsLog: Información @progress 'Compiling C++ source code...' 50%
+[2017.05.23-19.03.35:644][182]CompilerResultsLog: Información @progress 'Compiling C++ source code...' 62%
+[2017.05.23-19.03.35:644][182]CompilerResultsLog: Información @progress 'Compiling C++ source code...' 75%
+[2017.05.23-19.03.35:644][182]CompilerResultsLog: Información [7/7] Link libUE4Editor-RaspDrone_Client-9425.so
+[2017.05.23-19.03.35:644][182]CompilerResultsLog: Información @progress 'Compiling C++ source code...' 88%
+[2017.05.23-19.03.35:644][182]CompilerResultsLog: Información Total build time: 216,45 seconds (Local executor: 195,19 seconds)
+[2017.05.23-19.03.35:727][182]LogMainFrame: MainFrame: Module compiling took 220.217 seconds
+[2017.05.23-19.03.43:476][182]LogClass: Could not find existing class Socket in package /Script/RaspDrone_Client for HotReload, assuming new class
+[2017.05.23-19.03.43:477][182]LogClass: Function SendMessage is new.
+[2017.05.23-19.03.43:477][182]LogClass: Function StartTCPReceiver is new.
+[2017.05.23-19.03.43:785][182]LogHotReload: Re-instancing Socket after hot-reload.
+[2017.05.23-19.03.45:169][182]LogContentBrowser: Native class hierarchy updated for 'RaspDrone_Client' in 0.0860 seconds. Added 2 classes and 3 folders.
+[2017.05.23-19.03.45:212][182]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.05.23-19.03.45:422][182]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2235 classes and 434 folders.
+[2017.05.23-19.03.45:422][182]Display: HotReload took 229.9s.
