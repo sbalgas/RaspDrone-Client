@@ -27,6 +27,7 @@ void ASocket::Tick(float DeltaTime){
 bool ASocket::StartTCPReceiver(const FString& address, const int32 port) {
 	if (this->_startTCPReceiver(address, port)){
 		ListenRunnable::JoyInit(Socket);
+		this->OnConnected();
 		return true;
 	}
 	return false;
@@ -53,4 +54,8 @@ bool ASocket::SendMessage(FString string){
 	int32 sent = 0;
 
 	return Socket->Send((uint8*)TCHAR_TO_UTF8(serializedChar), size, sent);
+}
+
+void ASocket::OnConnected_Implementation() {
+	UE_LOG(LogTemp, Warning, TEXT("ON CONNECT"));
 }

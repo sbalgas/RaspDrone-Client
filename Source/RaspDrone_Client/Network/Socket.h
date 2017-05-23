@@ -41,4 +41,8 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Networking")
 	bool SendMessage(FString string);
+
+	UFUNCTION(BlueprintNativeEvent, Category = "Networking")
+	void OnConnected();
+	void OnConnected_Implementation();
 };
