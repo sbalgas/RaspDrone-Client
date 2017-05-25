@@ -4,8 +4,11 @@
 
 #include "GameFramework/Actor.h"
 #include "Networking.h"
-#include "ListenRunnable.h"
 #include "Socket.generated.h"
+
+class ListenRunnable;
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMessageReceived, FString, message);
 
 UCLASS()
 class RASPDRONE_CLIENT_API ASocket : public AActor {
@@ -45,4 +48,7 @@ public:
 	UFUNCTION(BlueprintNativeEvent, Category = "Networking")
 	void OnConnected();
 	void OnConnected_Implementation();
+
+	UPROPERTY(BlueprintAssignable)
+	FOnMessageReceived OnMessageReceived;
 };

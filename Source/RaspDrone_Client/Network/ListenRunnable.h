@@ -2,10 +2,11 @@
 
 #pragma once
 #include "Networking.h"
-
+#include "Socket.h"
 /**
  * 
  */
+
 class RASPDRONE_CLIENT_API ListenRunnable : public FRunnable {
 
 	static ListenRunnable* Runnable;
@@ -18,8 +19,10 @@ class RASPDRONE_CLIENT_API ListenRunnable : public FRunnable {
 	/** Stop this thread? Uses Thread Safe Counter */
 	FThreadSafeCounter StopTaskCounter;
 
+	FOnMessageReceived *OnMessageReceived;
+
 public:
-	ListenRunnable(FSocket* newSocket);
+	ListenRunnable(FSocket* newSocket, FOnMessageReceived* OnMessageEvent);
 	virtual ~ListenRunnable();
  
 	virtual bool Init();
@@ -28,7 +31,7 @@ public:
 
 	void EnsureCompletion();
  
-	static ListenRunnable* JoyInit(FSocket* newSocket);
+	static ListenRunnable* JoyInit(FSocket* newSocket, FOnMessageReceived* OnMessageEvent);
 	
 	static void Shutdown();
 };

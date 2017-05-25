@@ -5,10 +5,10 @@
 
 ListenRunnable* ListenRunnable::Runnable = NULL;
 
-ListenRunnable::ListenRunnable(FSocket* newSocket){
+ListenRunnable::ListenRunnable(FSocket* newSocket, FOnMessageReceived* OnMessageEvent){
 	//Link to where data should be stored
 	Socket = newSocket;
- 
+ 	OnMessageReceived = OnMessageEvent;
 	Thread = FRunnableThread::Create(this, TEXT("ListenRunnable"), 0, TPri_BelowNormal); //windows default = 8mb for thread, could specify more
 }
  
@@ -47,7 +47,10 @@ uint32 ListenRunnable::Run() {
 				Data[BytesRead] = '\0'; 
 				Msg = UTF8_TO_TCHAR(Data); 
 			} 
-			UE_LOG(LogTemp, Warning, TEXT("%s"), *Msg);
+
+			OnMessageReceived->Broadcast(Msg);
+
+			//UE_LOG(LogTemp, Warning, TEXT("%s"), *Msg);
 		}
 		
 	}
@@ -65,11 +68,11 @@ void ListenRunnable::Stop(){
 		clientSocket->Close();*/
 }
  
-ListenRunnable* ListenRunnable::JoyInit(FSocket* newSocket) {
+ListenRunnable* ListenRunnable::JoyInit(FSocket* newSocket, FOnMessageReceived* OnMessageEvent) {
 	//Create new instance of thread if it does not exist
 	//		and the platform supports multi threading!
 	if (!Runnable && FPlatformProcess::SupportsMultithreading())
-		Runnable = new ListenRunnable(newSocket);			
+		Runnable = new ListenRunnable(newSocket, OnMessageEvent);			
 	return Runnable;
 }
  
