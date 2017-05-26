@@ -26,6 +26,8 @@ void ASocket::Tick(float DeltaTime){
 }
 
 bool ASocket::StartTCPReceiver(const FString& address, const int32 port) {
+	addressConnected = address;
+	portConnected = port;
 	if (this->_startTCPReceiver(address, port)){
 		ListenRunnable::JoyInit(Socket, &OnMessageReceived);
 		this->OnConnected();
