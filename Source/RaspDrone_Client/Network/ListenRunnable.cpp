@@ -8,7 +8,7 @@ ListenRunnable* ListenRunnable::Runnable = NULL;
 ListenRunnable::ListenRunnable(FSocket* newSocket, FOnMessageReceived* OnMessageEvent){
 	//Link to where data should be stored
 	Socket = newSocket;
- 	OnMessageReceived = OnMessageEvent;
+	OnMessageReceived = OnMessageEvent;
 	Thread = FRunnableThread::Create(this, TEXT("ListenRunnable"), 0, TPri_BelowNormal); //windows default = 8mb for thread, could specify more
 }
  
@@ -31,6 +31,9 @@ uint32 ListenRunnable::Run() {
 	uint32 size;
 	uint32 dataSize = 0;
 	
+	FDroneStatus droneStatus;
+	TSharedPtr<FJsonObject> JsonObject;
+
 	while (StopTaskCounter.GetValue() == 0) {
 		//FPlatformProcess::Sleep(1);
 		FPlatformProcess::Sleep(0.01);
@@ -43,14 +46,64 @@ uint32 ListenRunnable::Run() {
 
 			int32 BytesRead = 0; 
 			if (Socket->Recv(Datagram->GetData(), Datagram->Num(), BytesRead)) { 
-				char* Data = (char*)Datagram->GetData(); 
+				char* Data = (char*)Datagram->GetData();
 				Data[BytesRead] = '\0'; 
-				Msg = UTF8_TO_TCHAR(Data); 
+				Msg = FString(Data);
+
+				TSharedRef<TJsonReader<TCHAR>> JsonReader = TJsonReaderFactory<TCHAR>::Create(*Msg);
+				if (FJsonSerializer::Deserialize(JsonReader, JsonObject)) {
+
+					if (JsonObject->HasField("MotorFL")){
+						droneStatus.MotorFL = JsonObject->GetIntegerField("MotorFL");	
+					}
+					
+					if (JsonObject->HasField("MotorFR")){
+						droneStatus.MotorFR = JsonObject->GetIntegerField("MotorFR");	
+					}
+
+					if (JsonObject->HasField("MotorBL")){
+						droneStatus.MotorBL = JsonObject->GetIntegerField("MotorBL");	
+					}
+
+					if (JsonObject->HasField("MotorBR")){
+						droneStatus.MotorBR = JsonObject->GetIntegerField("MotorBR");	
+					}
+
+					if (JsonObject->HasField("CPU")){
+						droneStatus.CPU = JsonObject->GetIntegerField("CPU");	
+					}
+
+					if (JsonObject->HasField("RAM")){
+						droneStatus.RAM = JsonObject->GetIntegerField("RAM");	
+					}
+
+					if (JsonObject->HasField("Temperature")){
+						droneStatus.Temperature = JsonObject->GetIntegerField("Temperature");	
+					}
+
+					if (JsonObject->HasField("NetUp")){
+						droneStatus.NetUp = JsonObject->GetIntegerField("NetUp");	
+					}
+					if (JsonObject->HasField("NetDown")){
+						droneStatus.NetDown = JsonObject->GetIntegerField("NetDown");	
+					}
+
+					if (JsonObject->HasField("Yaw")){
+						droneStatus.Yaw = JsonObject->GetIntegerField("Yaw");	
+					}
+
+					if (JsonObject->HasField("Pitch")){
+						droneStatus.Pitch = JsonObject->GetIntegerField("Pitch");	
+					}
+
+					if (JsonObject->HasField("Roll")){
+						droneStatus.Roll = JsonObject->GetIntegerField("Roll");	
+					}
+
+					OnMessageReceived->Broadcast(droneStatus);	
+				}
+
 			} 
-
-			OnMessageReceived->Broadcast(Msg);
-
-			//UE_LOG(LogTemp, Warning, TEXT("%s"), *Msg);
 		}
 		
 	}

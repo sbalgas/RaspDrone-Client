@@ -6,9 +6,40 @@
 #include "Networking.h"
 #include "Socket.generated.h"
 
+USTRUCT(BlueprintType)
+struct FDroneStatus
+{
+	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 MotorFL = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 MotorFR = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 MotorBL = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 MotorBR = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 CPU = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 RAM = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 Temperature = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 NetUp = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 NetDown = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 Yaw = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 Pitch = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 Roll = 0;
+};
+
 class ListenRunnable;
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMessageReceived, FString, message);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMessageReceived, FDroneStatus, message);
 
 UCLASS()
 class RASPDRONE_CLIENT_API ASocket : public AActor {
@@ -52,3 +83,4 @@ public:
 	UPROPERTY(BlueprintAssignable)
 	FOnMessageReceived OnMessageReceived;
 };
+
