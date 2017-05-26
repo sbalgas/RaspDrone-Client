@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "RaspDrone_Client.h"
+#include "ListenRunnable.h"
 #include "Socket.h"
 
 
@@ -26,7 +27,7 @@ void ASocket::Tick(float DeltaTime){
 
 bool ASocket::StartTCPReceiver(const FString& address, const int32 port) {
 	if (this->_startTCPReceiver(address, port)){
-		ListenRunnable::JoyInit(Socket);
+		ListenRunnable::JoyInit(Socket, &OnMessageReceived);
 		this->OnConnected();
 		return true;
 	}

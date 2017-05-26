@@ -4,8 +4,42 @@
 
 #include "GameFramework/Actor.h"
 #include "Networking.h"
-#include "ListenRunnable.h"
 #include "Socket.generated.h"
+
+USTRUCT(BlueprintType)
+struct FDroneStatus
+{
+	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 MotorFL = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 MotorFR = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 MotorBL = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 MotorBR = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 CPU = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 RAM = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 Temperature = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 NetUp = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 NetDown = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 Yaw = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 Pitch = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 Roll = 0;
+};
+
+class ListenRunnable;
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMessageReceived, FDroneStatus, message);
 
 UCLASS()
 class RASPDRONE_CLIENT_API ASocket : public AActor {
@@ -45,4 +79,8 @@ public:
 	UFUNCTION(BlueprintNativeEvent, Category = "Networking")
 	void OnConnected();
 	void OnConnected_Implementation();
+
+	UPROPERTY(BlueprintAssignable)
+	FOnMessageReceived OnMessageReceived;
 };
+
