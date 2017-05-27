@@ -14,31 +14,19 @@ struct FControlStruct
 	GENERATED_BODY()
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Control")
-	float Forward;
+	float Throttle;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Control")
-	float Back;
+	float Roll;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Control")
-	float Left;
+	float Pitch;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Control")
-	float Right;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Control")
-	float TurnLeft;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Control")
-	float TurnRight;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Control")
-	float GoUp;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Control")
-	float GoDown;
+	float Yaw;
 
 	FControlStruct(){
-		Forward = 0;
-		Back = 0;
-		Left = 0;
-		Right = 0;
-		TurnLeft = 0;
-		TurnRight = 0;
-		GoUp = 0;
-		GoDown = 0;
+		Throttle = 0;
+		Roll = 0;
+		Pitch = 0;
+		Yaw = 0;
 	}
 	
 };
