@@ -6414,6 +6414,7 @@ SOURCES += \
 	"$$unrealRootPath/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Private/ScreenshotTools.cpp" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/RaspDrone_Client.cpp" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/RaspDrone_ClientGameModeBase.cpp" \
+	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/ControlStruct.cpp" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/ListenRunnable.cpp" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/Socket.cpp" \
  

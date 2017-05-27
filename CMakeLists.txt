@@ -6425,6 +6425,7 @@ set(SOURCE_FILES
 	"${UE4_ROOT_PATH}/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Private/ScreenshotTools.cpp"
 	"${GAME_ROOT_PATH}/Source/RaspDrone_Client/RaspDrone_Client.cpp"
 	"${GAME_ROOT_PATH}/Source/RaspDrone_Client/RaspDrone_ClientGameModeBase.cpp"
+	"${GAME_ROOT_PATH}/Source/RaspDrone_Client/Network/ControlStruct.cpp"
 	"${GAME_ROOT_PATH}/Source/RaspDrone_Client/Network/ListenRunnable.cpp"
 	"${GAME_ROOT_PATH}/Source/RaspDrone_Client/Network/Socket.cpp"
  )
@@ -14762,6 +14763,7 @@ set(HEADER_FILES
 	"${UE4_ROOT_PATH}/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Public/ScreenshotTools.h"
 	"${GAME_ROOT_PATH}/Source/RaspDrone_Client/RaspDrone_Client.h"
 	"${GAME_ROOT_PATH}/Source/RaspDrone_Client/RaspDrone_ClientGameModeBase.h"
+	"${GAME_ROOT_PATH}/Source/RaspDrone_Client/Network/ControlStruct.h"
 	"${GAME_ROOT_PATH}/Source/RaspDrone_Client/Network/ListenRunnable.h"
 	"${GAME_ROOT_PATH}/Source/RaspDrone_Client/Network/Socket.h"
  )
@@ -19041,6 +19043,16 @@ include_directories(
 	"${UE4_ROOT_PATH}/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public"
 	"${UE4_ROOT_PATH}/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NetworkReplayStreaming"
 	"${UE4_ROOT_PATH}/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming"
+	"${UE4_ROOT_PATH}/Engine/Source/Runtime/Sockets/Public"
+	"${UE4_ROOT_PATH}/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Sockets"
+	"${UE4_ROOT_PATH}/Engine/Source/Runtime/Sockets"
+	"${UE4_ROOT_PATH}/Engine/Source/Runtime/Networking/Public"
+	"${UE4_ROOT_PATH}/Engine/Source/Runtime/Networking/Public/Common"
+	"${UE4_ROOT_PATH}/Engine/Source/Runtime/Networking/Public/Interfaces"
+	"${UE4_ROOT_PATH}/Engine/Source/Runtime/Networking/Public/Interfaces/IPv4"
+	"${UE4_ROOT_PATH}/Engine/Source/Runtime/Networking/Public/Interfaces/Steam"
+	"${UE4_ROOT_PATH}/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Networking"
+	"${UE4_ROOT_PATH}/Engine/Source/Runtime/Networking"
  )
 
 add_definitions( 

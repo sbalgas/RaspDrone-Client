@@ -50,13 +50,20 @@ bool ASocket::_startTCPReceiver(const FString& address, const int32 port){
 	return Socket->Connect(*addr);
 }
 
-bool ASocket::SendMessage(FString string){
+bool ASocket::SendMessageString(FString string){
 
 	TCHAR *serializedChar = string.GetCharArray().GetData();
 	int32 size = FCString::Strlen(serializedChar);
 	int32 sent = 0;
 
 	return Socket->Send((uint8*)TCHAR_TO_UTF8(serializedChar), size, sent);
+}
+
+bool ASocket::SendMessageControl(UControlStruct control){
+
+	
+
+	return true;
 }
 
 void ASocket::OnConnected_Implementation() {

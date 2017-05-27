@@ -74,7 +74,9 @@ public:
 	);
 
 	UFUNCTION(BlueprintCallable, Category = "Networking")
-	bool SendMessage(FString string);
+	bool SendMessageString(FString string);
+
+	bool SendMessageControl(UControlStruct control);
 
 	UFUNCTION(BlueprintNativeEvent, Category = "Networking")
 	void OnConnected();
