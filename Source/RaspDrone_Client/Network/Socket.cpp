@@ -59,9 +59,9 @@ bool ASocket::SendMessageString(FString string){
 	return Socket->Send((uint8*)TCHAR_TO_UTF8(serializedChar), size, sent);
 }
 
-bool ASocket::SendMessageControl(UControlStruct control){
+bool ASocket::SendMessageControl(FControlStruct control){
 
-	
+
 
 	return true;
 }

@@ -4,6 +4,7 @@
 
 #include "GameFramework/Actor.h"
 #include "Networking.h"
+#include "ControlStruct.h"
 #include "Socket.generated.h"
 
 USTRUCT(BlueprintType)
@@ -76,7 +77,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Networking")
 	bool SendMessageString(FString string);
 
-	bool SendMessageControl(UControlStruct control);
+	UFUNCTION(BlueprintCallable, Category = "Networking")
+	bool SendMessageControl(FControlStruct control);
 
 	UFUNCTION(BlueprintNativeEvent, Category = "Networking")
 	void OnConnected();
