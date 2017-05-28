@@ -28,5 +28,26 @@ struct FControlStruct
 		Pitch = 0;
 		Yaw = 0;
 	}
+
+	FString getJsonString(){
+
+
+		// create a Json object and add a string field
+		TSharedPtr< FJsonObject > JsonObj = MakeShareable(new FJsonObject);
+
+		JsonObj->SetNumberField("Throttle", Throttle);
+		JsonObj->SetNumberField("Roll", Roll);
+		JsonObj->SetNumberField("Pitch", Pitch);
+		JsonObj->SetNumberField("Yaw", Yaw);
+
+		FString OutputString;
+		TSharedRef< TJsonWriter<> > Writer = TJsonWriterFactory<>::Create(&OutputString);
+		FJsonSerializer::Serialize(JsonObj.ToSharedRef(), Writer);
+
+		UE_LOG(LogTemp, Warning, TEXT("%s"), *OutputString);
+
+		return OutputString;
+	
+	}
 	
 };
