@@ -8331,6 +8331,7 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Public/ScreenshotTools.h" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/RaspDrone_Client.h" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/RaspDrone_ClientGameModeBase.h" \
+	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/ControlStruct.h" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/ListenRunnable.h" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/Socket.h" \
  

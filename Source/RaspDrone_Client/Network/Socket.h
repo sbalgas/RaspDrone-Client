@@ -4,6 +4,7 @@
 
 #include "GameFramework/Actor.h"
 #include "Networking.h"
+#include "ControlStruct.h"
 #include "Socket.generated.h"
 
 USTRUCT(BlueprintType)
@@ -57,6 +58,7 @@ protected:
 private: 
 	
 	FSocket* Socket;
+	bool isConnected = false;
 
 	bool _startTCPReceiver(
 		const FString& address, 
@@ -74,7 +76,10 @@ public:
 	);
 
 	UFUNCTION(BlueprintCallable, Category = "Networking")
-	bool SendMessage(FString string);
+	bool SendMessageString(FString string);
+
+	UFUNCTION(BlueprintCallable, Category = "Networking")
+	bool SendMessageControl(FControlStruct control);
 
 	UFUNCTION(BlueprintNativeEvent, Category = "Networking")
 	void OnConnected();

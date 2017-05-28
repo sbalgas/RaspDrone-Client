@@ -3757,3 +3757,13 @@
 /home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public
 /home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NetworkReplayStreaming
 /home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming
+/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Sockets/Public
+/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Sockets
+/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Sockets
+/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Networking/Public
+/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Networking/Public/Common
+/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Networking/Public/Interfaces
+/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Networking/Public/Interfaces/IPv4
+/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Networking/Public/Interfaces/Steam
+/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Networking
+/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Networking
