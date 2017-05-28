@@ -28,12 +28,14 @@ void ASocket::Tick(float DeltaTime){
 bool ASocket::StartTCPReceiver(const FString& address, const int32 port) {
 	addressConnected = address;
 	portConnected = port;
-	if (this->_startTCPReceiver(address, port)){
+	isConnected = this->_startTCPReceiver(address, port);
+
+	if (isConnected){
 		ListenRunnable::JoyInit(Socket, &OnMessageReceived);
 		this->OnConnected();
-		return true;
 	}
-	return false;
+
+	return isConnected;
 }
 
 bool ASocket::_startTCPReceiver(const FString& address, const int32 port){
@@ -51,6 +53,7 @@ bool ASocket::_startTCPReceiver(const FString& address, const int32 port){
 }
 
 bool ASocket::SendMessageString(FString string){
+	if (!isConnected) return false;
 
 	TCHAR *serializedChar = string.GetCharArray().GetData();
 	int32 size = FCString::Strlen(serializedChar);
@@ -60,10 +63,8 @@ bool ASocket::SendMessageString(FString string){
 }
 
 bool ASocket::SendMessageControl(FControlStruct control){
-
-
-
-	return true;
+	FString message = control.getJsonString();
+	return SendMessageString(message);
 }
 
 void ASocket::OnConnected_Implementation() {

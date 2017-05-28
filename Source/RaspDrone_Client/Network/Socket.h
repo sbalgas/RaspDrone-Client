@@ -58,6 +58,7 @@ protected:
 private: 
 	
 	FSocket* Socket;
+	bool isConnected = false;
 
 	bool _startTCPReceiver(
 		const FString& address, 
