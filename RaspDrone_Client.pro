@@ -10,9 +10,9 @@ CONFIG -= qt
 TARGET = UE4 
 
 unrealRootPath=/home/sbalgass/apps/UnrealEngine
-RaspDrone_ClientRootPath=/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client
+RaspDrone_ClientRootPath=/home/sbalgass/Proyectos/Drone/RaspDrone_Client
 
-gameProjectFile=/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/RaspDrone_Client.uproject
+gameProjectFile=/home/sbalgass/Proyectos/Drone/RaspDrone_Client/RaspDrone_Client.uproject
 build=mono $$unrealRootPath/Engine/Binaries/DotNET/UnrealBuildTool.exe
 
 args=$(ARGS)
@@ -71,12 +71,6 @@ MinidumpDiagnostics-Linux-Shipping.commands = $$build MinidumpDiagnostics Linux 
 MinidumpDiagnostics-Linux-Test.commands = $$build MinidumpDiagnostics Linux Test  $$args
 MinidumpDiagnostics.commands = $$build MinidumpDiagnostics Linux Development  $$args
 
-CrossCompilerTool-Linux-Debug.commands = $$build CrossCompilerTool Linux Debug  $$args
-CrossCompilerTool-Linux-DebugGame.commands = $$build CrossCompilerTool Linux DebugGame  $$args
-CrossCompilerTool-Linux-Shipping.commands = $$build CrossCompilerTool Linux Shipping  $$args
-CrossCompilerTool-Linux-Test.commands = $$build CrossCompilerTool Linux Test  $$args
-CrossCompilerTool.commands = $$build CrossCompilerTool Linux Development  $$args
-
 UnrealLaunchDaemon-Linux-Debug.commands = $$build UnrealLaunchDaemon Linux Debug  $$args
 UnrealLaunchDaemon-Linux-DebugGame.commands = $$build UnrealLaunchDaemon Linux DebugGame  $$args
 UnrealLaunchDaemon-Linux-Shipping.commands = $$build UnrealLaunchDaemon Linux Shipping  $$args
@@ -107,6 +101,12 @@ UnrealAtoS-Linux-Shipping.commands = $$build UnrealAtoS Linux Shipping  $$args
 UnrealAtoS-Linux-Test.commands = $$build UnrealAtoS Linux Test  $$args
 UnrealAtoS.commands = $$build UnrealAtoS Linux Development  $$args
 
+MayaLiveLinkPlugin-Linux-Debug.commands = $$build MayaLiveLinkPlugin Linux Debug  $$args
+MayaLiveLinkPlugin-Linux-DebugGame.commands = $$build MayaLiveLinkPlugin Linux DebugGame  $$args
+MayaLiveLinkPlugin-Linux-Shipping.commands = $$build MayaLiveLinkPlugin Linux Shipping  $$args
+MayaLiveLinkPlugin-Linux-Test.commands = $$build MayaLiveLinkPlugin Linux Test  $$args
+MayaLiveLinkPlugin.commands = $$build MayaLiveLinkPlugin Linux Development  $$args
+
 ShaderCompileWorker-Linux-Debug.commands = $$build ShaderCompileWorker Linux Debug  $$args
 ShaderCompileWorker-Linux-DebugGame.commands = $$build ShaderCompileWorker Linux DebugGame  $$args
 ShaderCompileWorker-Linux-Shipping.commands = $$build ShaderCompileWorker Linux Shipping  $$args
@@ -136,12 +136,6 @@ UnrealCEFSubProcess-Linux-DebugGame.commands = $$build UnrealCEFSubProcess Linux
 UnrealCEFSubProcess-Linux-Shipping.commands = $$build UnrealCEFSubProcess Linux Shipping  $$args
 UnrealCEFSubProcess-Linux-Test.commands = $$build UnrealCEFSubProcess Linux Test  $$args
 UnrealCEFSubProcess.commands = $$build UnrealCEFSubProcess Linux Development  $$args
-
-UnrealCodeAnalyzer-Linux-Debug.commands = $$build UnrealCodeAnalyzer Linux Debug  $$args
-UnrealCodeAnalyzer-Linux-DebugGame.commands = $$build UnrealCodeAnalyzer Linux DebugGame  $$args
-UnrealCodeAnalyzer-Linux-Shipping.commands = $$build UnrealCodeAnalyzer Linux Shipping  $$args
-UnrealCodeAnalyzer-Linux-Test.commands = $$build UnrealCodeAnalyzer Linux Test  $$args
-UnrealCodeAnalyzer.commands = $$build UnrealCodeAnalyzer Linux Development  $$args
 
 UnrealFileServer-Linux-Debug.commands = $$build UnrealFileServer Linux Debug  $$args
 UnrealFileServer-Linux-DebugGame.commands = $$build UnrealFileServer Linux DebugGame  $$args
@@ -244,11 +238,6 @@ QMAKE_EXTRA_TARGETS += \
 	MinidumpDiagnostics-Linux-Shipping \
 	MinidumpDiagnostics-Linux-Test \
 	MinidumpDiagnostics \
-	CrossCompilerTool-Linux-Debug \
-	CrossCompilerTool-Linux-DebugGame \
-	CrossCompilerTool-Linux-Shipping \
-	CrossCompilerTool-Linux-Test \
-	CrossCompilerTool \
 	UnrealLaunchDaemon-Linux-Debug \
 	UnrealLaunchDaemon-Linux-DebugGame \
 	UnrealLaunchDaemon-Linux-Shipping \
@@ -274,6 +263,11 @@ QMAKE_EXTRA_TARGETS += \
 	UnrealAtoS-Linux-Shipping \
 	UnrealAtoS-Linux-Test \
 	UnrealAtoS \
+	MayaLiveLinkPlugin-Linux-Debug \
+	MayaLiveLinkPlugin-Linux-DebugGame \
+	MayaLiveLinkPlugin-Linux-Shipping \
+	MayaLiveLinkPlugin-Linux-Test \
+	MayaLiveLinkPlugin \
 	ShaderCompileWorker-Linux-Debug \
 	ShaderCompileWorker-Linux-DebugGame \
 	ShaderCompileWorker-Linux-Shipping \
@@ -299,11 +293,6 @@ QMAKE_EXTRA_TARGETS += \
 	UnrealCEFSubProcess-Linux-Shipping \
 	UnrealCEFSubProcess-Linux-Test \
 	UnrealCEFSubProcess \
-	UnrealCodeAnalyzer-Linux-Debug \
-	UnrealCodeAnalyzer-Linux-DebugGame \
-	UnrealCodeAnalyzer-Linux-Shipping \
-	UnrealCodeAnalyzer-Linux-Test \
-	UnrealCodeAnalyzer \
 	UnrealFileServer-Linux-Debug \
 	UnrealFileServer-Linux-DebugGame \
 	UnrealFileServer-Linux-Shipping \
