@@ -2,7 +2,7 @@
 # *DO NOT EDIT*
 
 UNREALROOTPATH = /home/sbalgass/apps/UnrealEngine
-GAMEPROJECTFILE =/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/RaspDrone_Client.uproject
+GAMEPROJECTFILE =/home/sbalgass/Proyectos/Drone/RaspDrone_Client/RaspDrone_Client.uproject
 
 TARGETS = \
 	UE4Client-Linux-Debug  \
@@ -45,11 +45,6 @@ TARGETS = \
 	MinidumpDiagnostics-Linux-Shipping  \
 	MinidumpDiagnostics-Linux-Test  \
 	MinidumpDiagnostics \
-	CrossCompilerTool-Linux-Debug  \
-	CrossCompilerTool-Linux-DebugGame  \
-	CrossCompilerTool-Linux-Shipping  \
-	CrossCompilerTool-Linux-Test  \
-	CrossCompilerTool \
 	UnrealLaunchDaemon-Linux-Debug  \
 	UnrealLaunchDaemon-Linux-DebugGame  \
 	UnrealLaunchDaemon-Linux-Shipping  \
@@ -75,6 +70,11 @@ TARGETS = \
 	UnrealAtoS-Linux-Shipping  \
 	UnrealAtoS-Linux-Test  \
 	UnrealAtoS \
+	MayaLiveLinkPlugin-Linux-Debug  \
+	MayaLiveLinkPlugin-Linux-DebugGame  \
+	MayaLiveLinkPlugin-Linux-Shipping  \
+	MayaLiveLinkPlugin-Linux-Test  \
+	MayaLiveLinkPlugin \
 	ShaderCompileWorker-Linux-Debug  \
 	ShaderCompileWorker-Linux-DebugGame  \
 	ShaderCompileWorker-Linux-Shipping  \
@@ -100,11 +100,6 @@ TARGETS = \
 	UnrealCEFSubProcess-Linux-Shipping  \
 	UnrealCEFSubProcess-Linux-Test  \
 	UnrealCEFSubProcess \
-	UnrealCodeAnalyzer-Linux-Debug  \
-	UnrealCodeAnalyzer-Linux-DebugGame  \
-	UnrealCodeAnalyzer-Linux-Shipping  \
-	UnrealCodeAnalyzer-Linux-Test  \
-	UnrealCodeAnalyzer \
 	UnrealFileServer-Linux-Debug  \
 	UnrealFileServer-Linux-DebugGame  \
 	UnrealFileServer-Linux-Shipping  \
@@ -162,7 +157,7 @@ PROJECTBUILD = mono "$(UNREALROOTPATH)/Engine/Binaries/DotNET/UnrealBuildTool.ex
 
 all: StandardSet
 
-RequiredTools: CrashReportClient-Linux-Shipping ShaderCompileWorker UnrealPak UnrealLightmass
+RequiredTools: CrashReportClient-Linux-Shipping ShaderCompileWorker UnrealLightmass
 
 StandardSet: RequiredTools UnrealFrontend UE4Editor
 
@@ -289,21 +284,6 @@ MinidumpDiagnostics-Linux-Test:
 MinidumpDiagnostics:
 	 $(BUILD) MinidumpDiagnostics Linux Development  $(ARGS)
 
-CrossCompilerTool-Linux-Debug:
-	 $(BUILD) CrossCompilerTool Linux Debug  $(ARGS)
-
-CrossCompilerTool-Linux-DebugGame:
-	 $(BUILD) CrossCompilerTool Linux DebugGame  $(ARGS)
-
-CrossCompilerTool-Linux-Shipping:
-	 $(BUILD) CrossCompilerTool Linux Shipping  $(ARGS)
-
-CrossCompilerTool-Linux-Test:
-	 $(BUILD) CrossCompilerTool Linux Test  $(ARGS)
-
-CrossCompilerTool:
-	 $(BUILD) CrossCompilerTool Linux Development  $(ARGS)
-
 UnrealLaunchDaemon-Linux-Debug:
 	 $(BUILD) UnrealLaunchDaemon Linux Debug  $(ARGS)
 
@@ -379,6 +359,21 @@ UnrealAtoS-Linux-Test:
 UnrealAtoS:
 	 $(BUILD) UnrealAtoS Linux Development  $(ARGS)
 
+MayaLiveLinkPlugin-Linux-Debug:
+	 $(BUILD) MayaLiveLinkPlugin Linux Debug  $(ARGS)
+
+MayaLiveLinkPlugin-Linux-DebugGame:
+	 $(BUILD) MayaLiveLinkPlugin Linux DebugGame  $(ARGS)
+
+MayaLiveLinkPlugin-Linux-Shipping:
+	 $(BUILD) MayaLiveLinkPlugin Linux Shipping  $(ARGS)
+
+MayaLiveLinkPlugin-Linux-Test:
+	 $(BUILD) MayaLiveLinkPlugin Linux Test  $(ARGS)
+
+MayaLiveLinkPlugin:
+	 $(BUILD) MayaLiveLinkPlugin Linux Development  $(ARGS)
+
 ShaderCompileWorker-Linux-Debug:
 	 $(BUILD) ShaderCompileWorker Linux Debug  $(ARGS)
 
@@ -453,21 +448,6 @@ UnrealCEFSubProcess-Linux-Test:
 
 UnrealCEFSubProcess:
 	 $(BUILD) UnrealCEFSubProcess Linux Development  $(ARGS)
-
-UnrealCodeAnalyzer-Linux-Debug:
-	 $(BUILD) UnrealCodeAnalyzer Linux Debug  $(ARGS)
-
-UnrealCodeAnalyzer-Linux-DebugGame:
-	 $(BUILD) UnrealCodeAnalyzer Linux DebugGame  $(ARGS)
-
-UnrealCodeAnalyzer-Linux-Shipping:
-	 $(BUILD) UnrealCodeAnalyzer Linux Shipping  $(ARGS)
-
-UnrealCodeAnalyzer-Linux-Test:
-	 $(BUILD) UnrealCodeAnalyzer Linux Test  $(ARGS)
-
-UnrealCodeAnalyzer:
-	 $(BUILD) UnrealCodeAnalyzer Linux Development  $(ARGS)
 
 UnrealFileServer-Linux-Debug:
 	 $(BUILD) UnrealFileServer Linux Debug  $(ARGS)

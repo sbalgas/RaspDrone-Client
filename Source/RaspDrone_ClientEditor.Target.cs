@@ -5,21 +5,10 @@ using System.Collections.Generic;
 
 public class RaspDrone_ClientEditorTarget : TargetRules
 {
-	public RaspDrone_ClientEditorTarget(TargetInfo Target)
+	public RaspDrone_ClientEditorTarget(TargetInfo Target) : base (Target)
 	{
 		Type = TargetType.Editor;
-	}
+        ExtraModuleNames.Add("RaspDrone_Client");
+    }
 
-	//
-	// TargetRules interface.
-	//
-
-	public override void SetupBinaries(
-		TargetInfo Target,
-		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
-		ref List<string> OutExtraModuleNames
-		)
-	{
-		OutExtraModuleNames.AddRange( new string[] { "RaspDrone_Client" } );
-	}
 }
