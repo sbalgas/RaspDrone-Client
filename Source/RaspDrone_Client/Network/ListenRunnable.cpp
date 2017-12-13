@@ -100,6 +100,18 @@ uint32 ListenRunnable::Run() {
 						droneStatus.Roll = JsonObject->GetIntegerField("Roll");	
 					}
 
+					if (JsonObject->HasField("PidRoll")){
+						droneStatus.PidRoll = JsonObject->GetIntegerField("PidRoll");	
+					}
+
+					if (JsonObject->HasField("PidPitch")){
+						droneStatus.PidPitch = JsonObject->GetIntegerField("PidPitch");	
+					}
+					
+					if (JsonObject->HasField("PidYaw")){
+						droneStatus.PidYaw = JsonObject->GetIntegerField("PidYaw");	
+					}
+					
 					OnMessageReceived->Broadcast(droneStatus);	
 				}
 

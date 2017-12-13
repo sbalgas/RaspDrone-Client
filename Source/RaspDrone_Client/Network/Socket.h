@@ -36,6 +36,12 @@ struct FDroneStatus
 	int32 Pitch = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
 	int32 Roll = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 PidRoll = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 PidPitch = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
+	int32 PidYaw = 0;
 };
 
 class ListenRunnable;
