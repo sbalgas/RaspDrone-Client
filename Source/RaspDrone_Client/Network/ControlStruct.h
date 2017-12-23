@@ -43,9 +43,6 @@ struct FControlStruct
 		FString OutputString;
 		TSharedRef< TJsonWriter<> > Writer = TJsonWriterFactory<>::Create(&OutputString);
 		FJsonSerializer::Serialize(JsonObj.ToSharedRef(), Writer);
-
-		UE_LOG(LogTemp, Warning, TEXT("%s"), *OutputString);
-
 		return OutputString;
 	
 	}

@@ -31,17 +31,19 @@ struct FDroneStatus
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
 	int32 NetDown = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
-	int32 Yaw = 0;
+	float Roll = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
-	int32 Pitch = 0;
+	float Pitch = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
-	int32 Roll = 0;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
-	int32 PidRoll = 0;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
-	int32 PidPitch = 0;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
-	int32 PidYaw = 0;
+	float Yaw = 0;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network|PID")
+	float PIDRollError = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network|PID")
+	float PIDPitchError = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network|PID")
+	float PIDYawError = 0;
+
 };
 
 class ListenRunnable;
