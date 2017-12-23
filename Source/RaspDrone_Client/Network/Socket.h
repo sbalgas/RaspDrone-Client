@@ -97,6 +97,9 @@ public:
 	FOnMessageReceived OnMessageReceived;
 
 	UPROPERTY(BlueprintReadOnly, Category = "Networking")
+	FDroneStatus droneStatus;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Networking")
 	FString addressConnected;
 	UPROPERTY(BlueprintReadOnly, Category = "Networking")	
 	int32 portConnected;

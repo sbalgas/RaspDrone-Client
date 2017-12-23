@@ -22,6 +22,7 @@ void ASocket::BeginDestroy(){
 
 // Called every frame
 void ASocket::Tick(float DeltaTime){
+	ListenRunnable::Tick(DeltaTime);
 	Super::Tick(DeltaTime);
 }
 
@@ -31,7 +32,7 @@ bool ASocket::StartTCPReceiver(const FString& address, const int32 port) {
 	isConnected = this->_startTCPReceiver(address, port);
 
 	if (isConnected){
-		ListenRunnable::JoyInit(Socket, &OnMessageReceived);
+		ListenRunnable::JoyInit(Socket, &OnMessageReceived, droneStatus);
 		this->OnConnected();
 	}
 
