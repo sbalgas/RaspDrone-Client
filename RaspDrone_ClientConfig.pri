@@ -580,6 +580,10 @@ OTHER_FILES += \
 	"$$unrealRootPath/Engine/Plugins/Tests/FunctionalTestingEditor/Source/FunctionalTestingEditor.Build.cs" \
 	"$$unrealRootPath/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/RuntimeTests.Build.cs" \
 	"$$unrealRootPath/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/ScreenshotTools.Build.cs" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/KantanChartsDatasource.Build.cs" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/KantanChartsEditor.Build.cs" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/KantanChartsSlate.Build.cs" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/KantanChartsUMG.Build.cs" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/RaspDrone_Client.Build.cs" \
  
 

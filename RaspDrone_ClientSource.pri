@@ -6826,10 +6826,54 @@ SOURCES += \
 	"$$unrealRootPath/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Private/RuntimeTests.cpp" \
 	"$$unrealRootPath/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Private/Slate/RichTextMarkupProcessingTest.cpp" \
 	"$$unrealRootPath/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Private/ScreenshotTools.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Private/KantanCartesianDatasourceInterface.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Private/KantanCategoryDatasourceInterface.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Private/KantanChartsDatasourceModule.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Private/KantanSimpleCartesianDatasource.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Private/KantanSimpleCategoryDatasource.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/CartesianAxisConfigCustomization.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/CategoryStyleManualMappingCustomization.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/DetailHelpers.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanBarChartCustomization.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanCartesianPlotCustomization.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanCartesianPlotScaleCustomization.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanCategoryChartCustomization.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanChartsEditorModule.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanSimpleCartesianDatasourceFactory.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanSimpleCategoryDatasourceFactory.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanTimeSeriesPlotCustomization.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/SeriesStyleManualMappingCustomization.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/AxisUtility.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/FloatRoundingLevel.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/KantanChartsImpl.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/KantanChartsSlateModule.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/Charts/SKantanBarChart.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/Charts/SKantanCartesianChart.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/Charts/SKantanCategoryChart.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/Charts/SKantanChart.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/Charts/SKantanChartLegend.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/Charts/SKantanTimeSeriesPlot.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/Style/KantanChartStyles.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/Style/KantanChartsStyleSet.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/BarChart.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/CartesianPlot.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/KantanBarChartBase.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/KantanCartesianChartBase.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/KantanCartesianPlotBase.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/KantanCategoryChart.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/KantanChart.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/KantanChartLegend.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/KantanChartsUMGModule.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/KantanTimeSeriesPlotBase.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/SimpleBarChart.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/SimpleCartesianPlot.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/SimpleTimeSeriesPlot.cpp" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Private/TimeSeriesPlot.cpp" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/RaspDrone_Client.cpp" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/RaspDrone_ClientGameModeBase.cpp" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/ControlStruct.cpp" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/ListenRunnable.cpp" \
+	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/PIDStruct.cpp" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/Socket.cpp" \
  
 

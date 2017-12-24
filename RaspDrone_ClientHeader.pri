@@ -8839,10 +8839,78 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Tests/FunctionalTestingEditor/Source/Public/EditorAutomationModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Public/RuntimeTests.h" \
 	"$$unrealRootPath/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Public/ScreenshotTools.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Public/CartesianData.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Public/CategoryData.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Public/IdBasedList.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Public/KantanCartesianDatapoint.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Public/KantanCartesianDatasourceInterface.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Public/KantanCategoryDatasourceInterface.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Public/KantanSimpleCartesianDatasource.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Public/KantanSimpleCategoryDatasource.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Public/SimpleCartesianDatasourceImpl.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsDatasource/Public/SimpleCategoryDatasourceImpl.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/CartesianAxisConfigCustomization.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/CategoryStyleManualMappingCustomization.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/DetailHelpers.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanBarChartCustomization.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanCartesianPlotCustomization.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanCartesianPlotScaleCustomization.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanCategoryChartCustomization.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanSimpleCartesianDatasourceFactory.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanSimpleCategoryDatasourceFactory.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/KantanTimeSeriesPlotCustomization.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsEditor/Private/SeriesStyleManualMappingCustomization.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/KantanChartsImpl.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/KantanChartsSlateModule.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/SimpleRenderTarget.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/SlateRotatedRect.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Private/Charts/ChartConstants.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/AxisUtility.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/FloatRoundingLevel.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/IKantanChartsSlateModule.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/KantanCartesianTypes.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/KantanCategoryTypes.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Charts/CartesianAxisConfig.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Charts/ChartEvents.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Charts/SKantanBarChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Charts/SKantanCartesianChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Charts/SKantanCategoryChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Charts/SKantanChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Charts/SKantanChartLegend.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Charts/SKantanTimeSeriesPlot.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Interfaces/IBarChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Interfaces/ICartesianChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Interfaces/ICategoryChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Interfaces/IChartBase.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Interfaces/IChartLegend.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Interfaces/IKantanChartsInterface.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Interfaces/ITimeSeriesChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Style/KantanBarChartStyle.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Style/KantanCartesianChartStyle.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Style/KantanCategoryStyle.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Style/KantanCategoryStyleSet.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Style/KantanChartStyle.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Style/KantanChartsStyleSet.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Style/KantanSeriesStyle.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Style/KantanSeriesStyleSet.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/BarChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/CartesianPlot.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/KantanBarChartBase.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/KantanCartesianChartBase.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/KantanCartesianPlotBase.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/KantanCategoryChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/KantanChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/KantanChartLegend.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/KantanTimeSeriesPlotBase.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/SimpleBarChart.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/SimpleCartesianPlot.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/SimpleTimeSeriesPlot.h" \
+	"$$RaspDrone_ClientRootPath/Plugins/KantanCharts/Source/KantanChartsUMG/Public/TimeSeriesPlot.h" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/RaspDrone_Client.h" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/RaspDrone_ClientGameModeBase.h" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/ControlStruct.h" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/ListenRunnable.h" \
+	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/PIDStruct.h" \
 	"$$RaspDrone_ClientRootPath/Source/RaspDrone_Client/Network/Socket.h" \
  
 

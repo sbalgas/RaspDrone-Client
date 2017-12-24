@@ -2237,6 +2237,22 @@ INCLUDEPATH += \
 	/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealWatchdog/Inc/Json \
 	/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/BootstrapPackagedGame/Inc/BootstrapPackagedGame \
 	/home/sbalgass/apps/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame \
+	Plugins/KantanCharts/Source \
+	Plugins/KantanCharts/Source/KantanChartsDatasource/Public \
+	Plugins/KantanCharts/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KantanChartsDatasource \
+	Plugins/KantanCharts/Source/KantanChartsDatasource \
+	Plugins/KantanCharts/Source/KantanChartsSlate/Private \
+	Plugins/KantanCharts/Source/KantanChartsSlate/Public \
+	Plugins/KantanCharts/Source/KantanChartsSlate/Public/Charts \
+	Plugins/KantanCharts/Source/KantanChartsSlate/Public/Interfaces \
+	Plugins/KantanCharts/Source/KantanChartsSlate/Public/Style \
+	Plugins/KantanCharts/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KantanChartsSlate \
+	Plugins/KantanCharts/Source/KantanChartsSlate \
+	Plugins/KantanCharts/Source/KantanChartsUMG/Public \
+	Plugins/KantanCharts/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KantanChartsUMG \
+	Plugins/KantanCharts/Source/KantanChartsUMG \
+	Plugins/KantanCharts/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KantanChartsEditor \
+	Plugins/KantanCharts/Source/KantanChartsEditor \
 	Source \
 	Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RaspDrone_Client \
 	Source/RaspDrone_Client \
