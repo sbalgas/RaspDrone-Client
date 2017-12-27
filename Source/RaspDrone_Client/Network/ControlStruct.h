@@ -22,11 +22,18 @@ struct FControlStruct
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Control")
 	float Yaw;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Control")
+	int32 PIDMode;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Control")
+	float PIDValue;
+
 	FControlStruct(){
 		Throttle = 0;
 		Roll = 0;
 		Pitch = 0;
 		Yaw = 0;
+		PIDMode = 0;
+		PIDValue = 0;
 	}
 
 	FString getJsonString(){
@@ -40,12 +47,12 @@ struct FControlStruct
 		JsonObj->SetNumberField("Pitch", Pitch);
 		JsonObj->SetNumberField("Yaw", Yaw);
 
+		JsonObj->SetNumberField("PIDMode", PIDMode);
+		JsonObj->SetNumberField("PIDValue", PIDValue);
+
 		FString OutputString;
 		TSharedRef< TJsonWriter<> > Writer = TJsonWriterFactory<>::Create(&OutputString);
 		FJsonSerializer::Serialize(JsonObj.ToSharedRef(), Writer);
-
-		UE_LOG(LogTemp, Warning, TEXT("%s"), *OutputString);
-
 		return OutputString;
 	
 	}

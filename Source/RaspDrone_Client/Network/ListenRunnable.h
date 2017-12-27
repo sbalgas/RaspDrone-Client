@@ -20,18 +20,22 @@ class RASPDRONE_CLIENT_API ListenRunnable : public FRunnable {
 	FThreadSafeCounter StopTaskCounter;
 
 	FOnMessageReceived *OnMessageReceived;
+	
+	FDroneStatus* droneStatus;
 
 public:
-	ListenRunnable(FSocket* newSocket, FOnMessageReceived* OnMessageEvent);
+	ListenRunnable(FSocket* newSocket, FOnMessageReceived* OnMessageEvent, FDroneStatus& TheDroneStatus);
 	virtual ~ListenRunnable();
- 
+
 	virtual bool Init();
 	virtual uint32 Run();
 	virtual void Stop();
 
 	void EnsureCompletion();
  
-	static ListenRunnable* JoyInit(FSocket* newSocket, FOnMessageReceived* OnMessageEvent);
+	static ListenRunnable* JoyInit(FSocket* newSocket, FOnMessageReceived* OnMessageEvent, FDroneStatus& TheDroneStatus);
 	
 	static void Shutdown();
+
+	static void Tick(float DeltaTime);
 };

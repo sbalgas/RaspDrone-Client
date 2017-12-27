@@ -5,7 +5,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/DerivedDataCache/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public/Android" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Launch" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SessionServices/Public" />
@@ -104,8 +103,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Notifications" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/Android" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Views" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Colors" />
@@ -120,6 +117,10 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Views" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Slate" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public/Interfaces" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ImageWrapper" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Messaging/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Messaging/Public/Deprecated" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Messaging/Public/Helpers" />
@@ -134,6 +135,9 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ShaderCore/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderCore" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ShaderCore" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UtilityShaders/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UtilityShaders" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UtilityShaders" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AssetRegistry/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AssetRegistry" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AssetRegistry" />
@@ -185,7 +189,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Features" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Kismet2" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Layers" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Localization" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Settings" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Tests" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Toolkits" />
@@ -228,13 +231,9 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintGraph" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/BlueprintGraph" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Android" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Apple" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/HTML5" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Linux" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Windows" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTTP" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UnrealAudio/Public" />
@@ -248,12 +247,13 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AutomationController/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationController" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AutomationController" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Internationalization/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Internationalization/Public/Serialization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Internationalization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Internationalization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Localization/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Localization/Public/Serialization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Localization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Localization" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Public/AssetTypeActions" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AudioEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LevelEditor/Public" />
@@ -296,6 +296,7 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ClassViewer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Public/KismetNodes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Public/KismetPins" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GraphEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ContentBrowser/Public" />
@@ -317,9 +318,18 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Kismet" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Kismet" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothingSystemRuntimeInterface" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntimeInterface" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NetworkReplayStreaming" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/Components" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioMixer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MediaAssets/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MediaAssets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MediaAssets" />
@@ -360,6 +370,10 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AutomationWorker/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationWorker" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AutomationWorker" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntime/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntime/Public/Assets" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothingSystemRuntime" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntime" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DesktopPlatform" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/DesktopPlatform" />
@@ -404,6 +418,7 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EditorWidgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorWidgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AssetTools/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AssetTools/Public/AssetTypeActions" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AssetTools" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AssetTools" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/2D/Paper2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PaperSpriteSheetImporter" />
@@ -422,8 +437,62 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeEditor/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Blendables/LightPropagationVolume/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LightPropagationVolumeEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/BlankPlugin/Source/Developer/BlankPlugin/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/BlankPlugin/Source/BlankPlugin/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/BlankPlugin/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlankPlugin" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/BlankPlugin/Source/BlankPlugin" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CodeLiteSourceCodeAccess" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/Source/CodeLiteSourceCodeAccess" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SourceCodeAccess" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SourceCodeAccess" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HotReload/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HotReload" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HotReload" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/GitSourceControl/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GitSourceControl" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/GitSourceControl/Source/GitSourceControl" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/KDevelopSourceCodeAccess/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KDevelopSourceCodeAccess" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/KDevelopSourceCodeAccess/Source/KDevelopSourceCodeAccess" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/NullSourceCodeAccess/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NullSourceCodeAccess" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/NullSourceCodeAccess/Source/NullSourceCodeAccess" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/OneSkyLocalizationService/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OneSkyLocalizationService" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/OneSkyLocalizationService/Source/OneSkyLocalizationService" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LocalizationService/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LocalizationService" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LocalizationService" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LocalizationCommandletExecution/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LocalizationCommandletExecution" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LocalizationCommandletExecution" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MainFrame/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MainFrame/Public/Interfaces" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MainFrame" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MainFrame" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PerforceSourceControl" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Perforce" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/SubversionSourceControl/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SubversionSourceControl" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/SubversionSourceControl/Source/SubversionSourceControl" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/XmlParser/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/XmlParser/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/XmlParser" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/XmlParser" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/UObjectPlugin/Source/Developer/UObjectPlugin/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/UObjectPlugin/Source/UObjectPlugin/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/UObjectPlugin/Source/UObjectPlugin/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/UObjectPlugin/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UObjectPlugin" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Developer/UObjectPlugin/Source/UObjectPlugin" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/AssetManagerEditor/Source/AssetManagerEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/AssetManagerEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AssetManagerEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/AssetManagerEditor/Source/AssetManagerEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public/Common" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public/Interfaces" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ReferenceViewer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/EpicSurvey/Source/EpicSurvey/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/EpicSurvey/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EpicSurvey" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/EpicSurvey/Source/EpicSurvey" />
@@ -431,32 +500,34 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Analytics" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public/Interfaces" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ImageWrapper" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/OnlineSubsystem/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystem/Source/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystem/Source/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystem/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineSubsystem" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystem/Source" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MainFrame/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MainFrame/Public/Interfaces" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MainFrame" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MainFrame" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/FacialAnimation/Source/FacialAnimation/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/FacialAnimation/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FacialAnimation" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/FacialAnimation/Source/FacialAnimation" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/FacialAnimation/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FacialAnimationEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/FacialAnimation/Source/FacialAnimationEditor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public/Common" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public/Interfaces" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TargetPlatform" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Persona/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Persona" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Persona" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AdvancedPreviewScene/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AdvancedPreviewScene" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AdvancedPreviewScene" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SkeletonEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SkeletonEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SkeletonEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Source/Editor/GameplayTagsEditor/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Source/Developer/AssetTools/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Source/GameplayTagsEditor/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Source/GameplayTagsEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTagsEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Source/GameplayTagsEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/KismetCompiler/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KismetCompiler" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/KismetCompiler" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/MobileLauncherProfileWizard/Source/MobileLauncherProfileWizard/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/MobileLauncherProfileWizard/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MobileLauncherProfileWizard" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Editor/MobileLauncherProfileWizard/Source/MobileLauncherProfileWizard" />
@@ -523,14 +594,85 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/CharacterAI/Source/CharacterAI/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/CharacterAI/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CharacterAI" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/CharacterAI/Source/CharacterAI" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/CodeEditor/Source/Developer/CodeEditor/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/CodeEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CodeEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/CodeEditor/Source/CodeEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/CodeView/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CodeView" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/CodeView/Source/CodeView" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Source/Phya/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Source/Phya/Private/PhyaLib/include" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Source/Phya/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Source/Phya/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Phya" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Source/Phya" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Private/Controllers" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Private/Sequencer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ControlRig/Private/Controllers" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Public/Rigs" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Public/Sequencer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ControlRig" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimationCore/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimationCore" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimationCore" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/LevelSequence/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelSequence" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/LevelSequence" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public/Compilation" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public/Evaluation" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieScene" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Sections" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTracks" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Animation" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Binding" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Blueprint" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Components" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Slate" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UMG" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/AnimNodes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/AnimNotifies" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/BoneControllers" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/RBF" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraphRuntime" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/InputOutput" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ControlRigEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AnimGraph/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AnimGraph/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraph" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AnimGraph" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public/Sections" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public/TrackEditorThumbnail" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public/TrackEditors" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public/TrackEditors/PropertyTrackEditors" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTools" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Sequencer/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Sequencer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Sequencer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SceneOutliner/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SceneOutliner" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SceneOutliner" />
+    <Include Path="/LiveLink/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/LiveLink/Source/LiveLink/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/LiveLink/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LiveLink" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/LiveLink/Source/LiveLink" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LiveLinkInterface/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LiveLinkInterface" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LiveLinkInterface" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LiveLinkMessageBusFramework/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LiveLinkMessageBusFramework" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LiveLinkMessageBusFramework" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/SimpleHMD/Source/SimpleHMD/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Renderer/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Experimental/SimpleHMD/Source/SimpleHMD/Public" />
@@ -598,6 +740,22 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Media/WmfMedia/Source/WmfMedia/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Media/WmfMedia/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WmfMedia" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Media/WmfMedia/Source/WmfMedia" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Models" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Styles" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Breakpoints" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/EndpointDetails" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Endpoints" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Graph" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/History" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Interceptors" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/MessageData" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/MessageDetails" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Types" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Toolbar" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MessagingDebugger" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Private/Shared" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Private/Transport" />
@@ -612,18 +770,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ActorSequence/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ActorSequence" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ActorSequence" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public/Compilation" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public/Evaluation" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieScene" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public/TrackEditors" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTools" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Sequencer/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Sequencer" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Sequencer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private/AssetTools" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private/Customizations" />
@@ -632,29 +778,12 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private/Styles" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelSequenceEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/LevelSequence/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelSequence" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/LevelSequence" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Sections" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTracks" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Animation" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Binding" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Blueprint" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Components" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Slate" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UMG" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CinematicCamera/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CinematicCamera" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CinematicCamera" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SceneOutliner/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SceneOutliner" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SceneOutliner" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ViewportInteraction/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ViewportInteraction" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ViewportInteraction" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/PlacementMode/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PlacementMode" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/PlacementMode" />
@@ -682,7 +811,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Source/NetcodeUnitTest" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Source/NetcodeUnitTest/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public/IOS" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/StandaloneRenderer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/Source/GameCircleRuntimeSettings/Classes" />
@@ -692,6 +820,14 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Android/Android_MultiTargetPlatform/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_MultiTargetPlatform" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Android/Android_MultiTargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/HTTPChunkInstaller/Source/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/HTTPChunkInstaller/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTTPChunkInstaller" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/HTTPChunkInstaller/Source" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public/Interfaces" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BuildPatchServices" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/OnlineFramework/Source/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/OnlineFramework/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Qos" />
@@ -732,9 +868,20 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/Voice/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Voice" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/Voice" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Steamworks/Steamv132/sdk/public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/AndroidPermission/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidPermission" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Steamworks/Steamv139/sdk/public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Steamworks" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemUtils/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineBlueprintSupport" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Performance/PerformanceMonitor/Source/PerformanceMonitor/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Performance/PerformanceMonitor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PerformanceMonitor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Performance/PerformanceMonitor/Source/PerformanceMonitor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/Source/AnalyticsBlueprintLibrary/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/Source/AnalyticsBlueprintLibrary/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnalyticsBlueprintLibrary" />
@@ -765,11 +912,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Analytics/Flurry/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FlurryEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Analytics/Flurry/Source/FlurryEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/AndroidPermission/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidPermission" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ArchVisCharacter/Source/ArchVisCharacter/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ArchVisCharacter/Source/ArchVisCharacter/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ArchVisCharacter/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ArchVisCharacter" />
@@ -797,12 +939,50 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SequenceRecorder/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SequenceRecorder" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SequenceRecorder" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilitiesEditor/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Kismet/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AssetTools/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilitiesEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/GameplayAbilities/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayAbilitiesEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilitiesEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTasksEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/GoogleVRTransition2D/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GoogleVRTransition2D" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/Runtime/AIModule/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/Runtime/AIModule/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/Runtime/Engine/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/HTNPlanner/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNPlanner/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNPlanner/Public/AI" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNPlanner/Public/Debug" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTNPlanner" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNPlanner" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/HTNTestSuite/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNTestSuite/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTNTestSuite" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNTestSuite" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AITestSuite/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AITestSuite/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AITestSuite" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AITestSuite" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/Runtime/ImmediatePhysics/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/ImmediatePhysics/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/ImmediatePhysics/Public/BoneControllers" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ImmediatePhysics" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/ImmediatePhysics" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/PhysX" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/Runtime/ImmediatePhysicsEditor/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/ImmediatePhysicsEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ImmediatePhysicsEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/ImmediatePhysicsEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Source/Runtime/LinuxDeviceProfileSelector/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/LinuxDeviceProfileSelector/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Source/LinuxDeviceProfileSelector/Public" />
@@ -830,10 +1010,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/MobilePatchingUtils/Source/MobilePatchingUtils/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/MobilePatchingUtils/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MobilePatchingUtils" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/MobilePatchingUtils/Source/MobilePatchingUtils" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public/Interfaces" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BuildPatchServices" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/OptionalMobileFeaturesBPLibrary/Source/OptionalMobileFeaturesBPLibrary/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/OptionalMobileFeaturesBPLibrary/Source/OptionalMobileFeaturesBPLibrary/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/OptionalMobileFeaturesBPLibrary/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OptionalMobileFeaturesBPLibrary" />
@@ -848,13 +1024,12 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhysXVehicles" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/AnimNodes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/BoneControllers" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraphRuntime" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Source/ThirdParty/PhysX" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/PhysX" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/PhysXVehiclesEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhysXVehiclesEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ProceduralMeshComponent/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Public" />
@@ -879,6 +1054,12 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/SoundMod/Source/SoundMod" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/coremod/coremod-4.2.6/include/coremod" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/coremod" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilities/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SoundUtilities" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilities" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilitiesEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SoundUtilitiesEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilitiesEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/SoundVisualizations/Source/SoundVisualizations/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/SoundVisualizations/Source/SoundVisualizations/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/SoundVisualizations/Source/SoundVisualizations/Public" />
@@ -892,6 +1073,34 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/InputDevice/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InputDevice" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/InputDevice" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SteamVR" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/OpenVR/OpenVRv1_0_6/headers" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/OpenVR" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/OpenGL" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Vulkan" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/OpenGLDrv/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OpenGLDrv" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/OpenGLDrv" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VulkanRHI" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/VulkanRHI" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVRController/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SteamVRController" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVRController" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Synthesis" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/Synthesis" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SynthesisEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/WebBrowserWidget/Source/WebBrowserWidget/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/WebBrowserWidget/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WebBrowserWidget" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Runtime/WebBrowserWidget/Source/WebBrowserWidget" />
@@ -924,6 +1133,11 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ScreenShotComparisonTools/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ScreenShotComparisonTools" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ScreenShotComparisonTools" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/RuntimeTests/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Tests/RuntimeTests/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RuntimeTests" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ScreenshotTools/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Public" />
@@ -950,7 +1164,14 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore/Private/Types" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore/Private/Widgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/FreeType2" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/ICU" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/HarfBuzz" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/zlib/v1.2.8/include/Linux/x86_64-unknown-linux-gnu" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/zlib" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libPNG/libPNG-1.5.2" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libPNG" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libJPG" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application" />
@@ -977,11 +1198,11 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Private/Widgets/Tutorials" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Private/Widgets/Views" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Toolbox/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/SDL2" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Settings/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SourceCodeAccess" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SourceCodeAccess" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/DirectoryWatcher/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DerivedDataCache" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/DerivedDataCache" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Private" />
@@ -990,16 +1211,10 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Private/Internationalization" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Private/Internationalization/Cultures" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Analytics/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/zlib/v1.2.8/include/Linux/x86_64-unknown-linux-gnu" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/zlib" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/jemalloc/include/Linux/x86_64-unknown-linux-gnu" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/jemalloc" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/elftoolchain/include/x86_64-unknown-linux-gnu" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/elftoolchain" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/SDL2/SDL-gui-backend/include" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/SDL2" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/OpenGL" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/DirectoryWatcher/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SlateFileDialogs/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SlateFileDialogs/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlateFileDialogs" />
@@ -1034,17 +1249,8 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/NullDrv/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NullDrv" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/NullDrv" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UtilityShaders/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UtilityShaders" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UtilityShaders" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libPNG/libPNG-1.5.2" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libPNG" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libJPG" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Vulkan/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/OpenGLDrv/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/OpenGLDrv/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OpenGLDrv" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/OpenGLDrv" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/RHI/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Private" />
@@ -1069,6 +1275,10 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/CurveAssetEditor/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CurveAssetEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/CurveAssetEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/Presentation" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/UserInterface" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/Model" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SourceControl/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/CrashTracker/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/CrashTracker/Public" />
@@ -1079,54 +1289,44 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SourceControlWindows/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SourceControlWindows" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SourceControlWindows" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LinuxTargetPlatform/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxTargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureCompressor/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureCompressor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureCompressor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxNoEditorTargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxNoEditorTargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxClientTargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxClientTargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxServerTargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxServerTargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LaunchDaemonMessages" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AllDesktopTargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AllDesktopTargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderCompilerCommon" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderPreprocessor/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderPreprocessor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderPreprocessor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/MCPP/mcpp-2.7.2/inc" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/MCPP" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderCompilerCommon" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderFormatOpenGL/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderFormatOpenGL" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderFormatOpenGL" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/hlslcc" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatPVR" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureFormatPVR" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatDXT" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureFormatDXT" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/nvTextureTools/nvTextureTools-2.0.8/src/src" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/nvTextureTools" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureCompressor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureCompressor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureCompressor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatPVR" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureFormatPVR" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatIntelISPCTexComp" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureFormatIntelISPCTexComp" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/IntelISPCTexComp/ispc_texcomp" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/IntelISPCTexComp" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatASTC" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureFormatASTC" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatAndroid" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureFormatAndroid" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Qualcomm/TextureConverter/Include" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Qualcomm/TextureConverter" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatUncompressed" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureFormatUncompressed" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOgg" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AudioFormatOgg" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Ogg" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Vorbis/libvorbis-1.3.2/include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Vorbis" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOpus" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AudioFormatOpus" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libOpus/opus-1.1/include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libOpus" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Serialization/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private/Settings" />
@@ -1155,13 +1355,21 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Android/Android_ETC2TargetPlatform" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_ASTCTargetPlatform" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Android/Android_ASTCTargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HTML5TargetPlatform/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5TargetPlatform/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTML5TargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5TargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Engine/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/PhysXFormats/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhysXFormats" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/PhysXFormats" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/Presentation" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/UserInterface" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/Model" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VulkanShaderFormat" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/VulkanShaderFormat" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/glslang" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatAndroid" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureFormatAndroid" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Qualcomm/TextureConverter/Include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Qualcomm/TextureConverter" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/WidgetCarousel/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/WidgetCarousel/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WidgetCarousel" />
@@ -1171,6 +1379,10 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Merge/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Merge" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Merge" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AVIWriter/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AVIWriter/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AVIWriter" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AVIWriter" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols" />
@@ -1179,20 +1391,16 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/PackagesDialog/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PackagesDialog" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/PackagesDialog" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/XmlParser/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/XmlParser/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/XmlParser" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/XmlParser" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TreeMap/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TreeMap" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TreeMap" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SizeMap/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SizeMap" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SizeMap" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ReferenceViewer" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MaterialUtilities/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MaterialUtilities" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MaterialUtilities" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MaterialEditor/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/StatsViewer/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/StatsViewer/Private/StatsPages" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/StatsViewer/Private/StatsEntries" />
@@ -1204,19 +1412,13 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/DeviceProfileServices/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DeviceProfileServices" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/DeviceProfileServices" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CEF3Utils" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/WebBrowser/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntime/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemEditorInterface/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ClothingSystemEditorInterface/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothingSystemEditorInterface" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ClothingSystemEditorInterface" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Documentation/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SkeletonEditor/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SkeletonEditor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SkeletonEditor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AnimGraph/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AnimGraph/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraph" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AnimGraph" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AnimationEditor/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimationEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AnimationEditor" />
@@ -1238,9 +1440,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Foliage/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Foliage" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Foliage" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MaterialUtilities/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MaterialUtilities" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MaterialUtilities" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MeshBoneReduction/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MeshBoneReduction" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/MeshBoneReduction" />
@@ -1273,10 +1472,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/PixelInspector" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AITestSuite/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AITestSuite/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AITestSuite/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AITestSuite" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AITestSuite" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Navmesh/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Navmesh/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Navmesh/Public/DebugUtils" />
@@ -1289,7 +1484,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/GameplayDebugger/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/GameplayTags/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AIModule/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Engine/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/MessageLog/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Stats/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/FunctionalTesting/Private" />
@@ -1351,9 +1545,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Layers/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Layers" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Layers" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ViewportInteraction/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ViewportInteraction" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ViewportInteraction" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/VREditor/Gizmo" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/VREditor/UI" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/VREditor/Teleporter" />
@@ -1361,6 +1552,25 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LandscapeEditor/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LandscapeEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LandscapeEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MoviePlayer/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/InternationalizationSettings/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/InternationalizationSettings/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InternationalizationSettings" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/InternationalizationSettings" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Private/PropertyVisualization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Public/PropertyVisualization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ConfigEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ConfigEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ComponentVisualizers" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/DetailCustomizations/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/FoliageEdit/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FoliageEdit" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/FoliageEdit" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/WorldBrowser/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/WorldBrowser/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WorldBrowser" />
@@ -1388,14 +1598,8 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Private/TrackEditors/PropertyTrackEditors" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Private/TrackEditorThumbnail" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Private/Sections" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/KismetCompiler/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KismetCompiler" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/KismetCompiler" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/BlueprintGraph/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/KismetWidgets/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HotReload/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HotReload" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HotReload" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/BlueprintCompilerCppBackend/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/BlueprintCompilerCppBackend/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintCompilerCppBackend" />
@@ -1408,26 +1612,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/BlueprintProfiler/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintProfiler" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/BlueprintProfiler" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MoviePlayer/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Localization/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Localization/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Localization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Localization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/InternationalizationSettings/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/InternationalizationSettings/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InternationalizationSettings" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/InternationalizationSettings" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Private/PropertyVisualization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Public/PropertyVisualization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ConfigEditor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ConfigEditor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ComponentVisualizers" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/DetailCustomizations/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UMGEditor/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Templates" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Extensions" />
@@ -1449,7 +1633,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/BlueprintRuntime/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintRuntime" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/BlueprintRuntime" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Kismet/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LauncherServices/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LauncherServices/Private/Devices" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LauncherServices/Private/Games" />
@@ -1460,14 +1643,11 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AddContentDialog/Private/ViewModels" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AddContentDialog/Private/ContentSourceProviders/AssetPack" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AddContentDialog/Private/ContentSourceProviders/FeaturePack" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/GameProjectGeneration/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/GameProjectGeneration/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/GameProjectGeneration/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Internationalization/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LocalizationService/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LocalizationService/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LocalizationService" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LocalizationService" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/TranslationEditor/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/TranslationEditor/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TranslationEditor" />
@@ -1516,17 +1696,12 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/DestructibleMeshEditor/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DestructibleMeshEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/DestructibleMeshEditor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MaterialEditor/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/FontEditor/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FontEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/FontEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Private/Factories" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AssetTools/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private/AnimationPins" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private/AnimationStateNodes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private/KismetNodes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private/KismetPins" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private/MaterialNodes" />
@@ -1556,6 +1731,9 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SwarmInterface/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SwarmInterface" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/SwarmInterface" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MeshPaintMode/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MeshPaintMode" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MeshPaintMode" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Curves" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/VectorVM/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VectorVM" />
@@ -1566,6 +1744,10 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/PluginWarden/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PluginWarden" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/PluginWarden" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemEditor/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ClothingSystemEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothingSystemEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ClothingSystemEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UnrealAudio/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UnrealAudio/Private/Tests" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/StaticMeshEditor/Public" />
@@ -1607,6 +1789,9 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ProjectLauncher/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ProjectLauncher" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ProjectLauncher" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/StringTableEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/StringTableEditor" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/StringTableEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GeometryMode/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GeometryMode/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GeometryMode" />
@@ -1614,9 +1799,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/TextureAlignMode/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureAlignMode" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/TextureAlignMode" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/FoliageEdit/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FoliageEdit" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/FoliageEdit" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/PackageDependencyInfo/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PackageDependencyInfo" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/PackageDependencyInfo" />
@@ -1627,7 +1809,16 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Blutility" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Niagara/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderFormatVectorVM/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderFormatVectorVM" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderFormatVectorVM" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/Toolkits" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/Widgets" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/Sequencer/NiagaraSequence" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/Sequencer/LevelSequence" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/ViewModels" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/TypeEditorUtilities" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MergeActors/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MergeActors/Private/MeshMergingTool" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/MergeActors/Private/MeshProxyTool" />
@@ -1656,19 +1847,11 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EnvironmentQueryEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EnvironmentQueryEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTasksEditor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/IOS/IOSRuntimeSettings/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/IOSRuntimeSettings" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/IOS/IOSRuntimeSettings" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/IOSPlatformEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/iOS/IOSPlatformEditor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HTML5TargetPlatform/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5TargetPlatform/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTML5TargetPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5TargetPlatform" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5PlatformEditor/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTML5PlatformEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5PlatformEditor" />
@@ -1698,6 +1881,12 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GeometryCacheEd" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GeometryCacheEd" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/GeometryCacheEd/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AnimationModifiers/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimationModifiers" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AnimationModifiers" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ClothPainter/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothPainter" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ClothPainter" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Android/AndroidRuntimeSettings/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidRuntimeSettings" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Android/AndroidRuntimeSettings" />
@@ -1728,6 +1917,12 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/PerfCounters/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PerfCounters" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/PerfCounters" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/CollisionAnalyzer/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CollisionAnalyzer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/CollisionAnalyzer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LogVisualizer/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LogVisualizer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LogVisualizer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SynthBenchmark/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/DatabaseSupport/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/ADO" />
@@ -1739,6 +1934,27 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/StreamingPauseRendering" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/StreamingPauseRendering" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateNullRenderer/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/BlankModule/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/BlankModule/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlankModule" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/BlankModule" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LinuxTargetPlatform/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxTargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxNoEditorTargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxNoEditorTargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxServerTargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxServerTargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxClientTargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxClientTargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LaunchDaemonMessages" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AllDesktopTargetPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AllDesktopTargetPlatform" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NullNetworkReplayStreaming/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NullNetworkReplayStreaming/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NullNetworkReplayStreaming" />
@@ -1750,11 +1966,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Advertising/Advertising/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Advertising" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Advertising/Advertising" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Ogg" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Vorbis/libvorbis-1.3.2/include" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Vorbis" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libOpus/opus-1.1/include" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libOpus" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Media/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MediaUtils/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MediaAssets/Private" />
@@ -1774,16 +1985,18 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ModuleUI/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ModuleUI" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ModuleUI" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/LiveLinkInterface/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/LiveLinkMessageBusFramework/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/Voice/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/Icmp/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CEF3Utils" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/WebBrowser/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatADPCM" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AudioFormatADPCM" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOgg" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AudioFormatOgg" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOpus" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AudioFormatOpus" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AutomationDriver/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AutomationDriver/Private/Locators" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AutomationDriver/Private/Specs" />
@@ -1791,13 +2004,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AutomationDriver/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationDriver" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AutomationDriver" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/BlankModule/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/BlankModule/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlankModule" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/BlankModule" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/CollisionAnalyzer/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CollisionAnalyzer" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/CollisionAnalyzer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/CrashDebugHelper/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/CrashDebugHelper/Private/Linux" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/CrashDebugHelper/Private/Mac" />
@@ -1806,30 +2012,16 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/CrashDebugHelper/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CrashDebugHelper" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/CrashDebugHelper" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LogVisualizer/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LogVisualizer" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/LogVisualizer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SlackIntegrations/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SlackIntegrations/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlackIntegrations" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SlackIntegrations" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatUncompressed" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/TextureFormatUncompressed" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/UnrealCodeAnalyzerTests/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UnrealCodeAnalyzerTests" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/UnrealCodeAnalyzerTests" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Analytics/AnalyticsSwrve/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnalyticsSwrve" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Analytics/AnalyticsSwrve" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Analytics/QoSReporter/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/QoSReporter" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Analytics/QoSReporter" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Classes" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioMixer" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/FriendsAndChat/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/FriendsAndChat/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/FriendsAndChat/Public/Interfaces" />
@@ -1856,9 +2048,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WebSockets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/WebSockets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/WebSockets/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libWebSockets/libwebsockets/include" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libWebSockets/libwebsockets/include/Linux" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libWebSockets/libwebsocketsinclude" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libWebSockets/libwebsockets/include/Linux/x86_64-unknown-linux-gnu" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/libWebSockets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/XMPP/Private" />
@@ -1874,6 +2063,7 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RuntimeAssetCache" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/RuntimeAssetCache" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.2623.1395.g3034273_linux64" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Perforce/p4api-2014.1/include" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/PhysX/PxShared/include" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/PhysX/PxShared/include/cudamanager" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/PhysX/PxShared/include/filebuf" />
@@ -1900,11 +2090,19 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/PhysX/APEX_1.4/shared/general/PairFilter/include" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/PhysX/APEX_1.4/shared/internal/include" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/PhysX/APEX_1.4/externals/CUDA_6.5.19/include" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/FreeType2/FreeType2-2.6/include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/PhysX/NvCloth/include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/PhysX/NvCloth/extensions/include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/PhysX/PxShared/src/foundation/include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Vulkan/Linux/include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Vulkan/Linux/include/vulkan" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/FreeType2/FreeType2-2.6/Include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/ICU/icu4c-53_1/include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/HarfBuzz/harfbuzz-1.2.4/src" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Ogg/libogg-1.2.2/include" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/glslang/glslang/src/glslang_lib" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/FBX/2016.1.1/include" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/FBX/2016.1.1/include/fbxsdk" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/Ogg/libogg-1.2.2/include" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/WebRTC/sdk_trunk_linux/include" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Private" />
@@ -2060,13 +2258,9 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrashReportClient/Inc/InputCore" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/InputCore" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Android" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Apple" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/HTML5" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Linux" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Windows" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrashReportClient/Inc/HTTP" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public" />
@@ -2093,9 +2287,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrashReportClient/Inc/DesktopPlatform" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/DesktopPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Analytics/QoSReporter/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrashReportClient/Inc/QoSReporter" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Analytics/QoSReporter" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Public" />
@@ -2155,75 +2346,11 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/Json" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public/Android" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/Launch" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ProfilerService/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/ProfilerService" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ProfilerService" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Apple/MetalShaderFormat/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderFormatOpenGL/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/CrossCompilerTool" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Programs/CrossCompilerTool" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Internationalization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Async" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Concurrency" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Containers" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/GenericPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/HAL" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Logging" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Math" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Modules" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Modules/Boilerplate" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/ProfilingDebugging" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Serialization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Serialization/Csv" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Stats" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/UObject" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Linux" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects/Public/Interfaces" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/Projects" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public/Dom" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public/Policies" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public/Serialization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/Json" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/ShaderCompilerCommon" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Apple/MetalRHI/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/MetalShaderFormat" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Apple/MetalShaderFormat" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderFormatOpenGL/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/ShaderFormatOpenGL" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderFormatOpenGL" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderPreprocessor/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/ShaderPreprocessor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ShaderPreprocessor" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ShaderCore/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/ShaderCore" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ShaderCore" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/RHI/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/RHI" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/RHI" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/RenderCore/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/RenderCore" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/RenderCore" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/hlslcc" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public" />
@@ -2281,8 +2408,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Notifications" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/Android" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Views" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Colors" />
@@ -2327,13 +2452,16 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/SlateCore" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public/Interfaces" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/ImageWrapper" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorStyle/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorStyle/Public/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorStyle/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/EditorStyle" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorStyle" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public/IOS" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/StandaloneRenderer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Classes" />
@@ -2385,7 +2513,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/DsymExporter/Inc/Json" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public/Android" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/DsymExporter/Inc/Launch" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ProfilerService/Public" />
@@ -2512,12 +2639,65 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealAtoS/Inc/Json" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public/Android" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealAtoS/Inc/Launch" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ProfilerService/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealAtoS/Inc/ProfilerService" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ProfilerService" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Private" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/MayaLiveLinkPlugin" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Programs/MayaLiveLinkPlugin" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Internationalization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Async" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Concurrency" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Containers" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/GenericPlatform" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/HAL" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Logging" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Math" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Modules" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Modules/Boilerplate" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/ProfilingDebugging" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Serialization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Serialization/Csv" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Stats" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/UObject" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Linux" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Blueprint" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Internationalization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Misc" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Serialization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Templates" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/CoreUObject" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects/Public/Interfaces" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/Projects" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public/Dom" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public/Policies" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public/Serialization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/Json" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/UdpMessaging" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LiveLinkInterface/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/LiveLinkInterface" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LiveLinkInterface" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LiveLinkMessageBusFramework/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/LiveLinkMessageBusFramework" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LiveLinkMessageBusFramework" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/ShaderCompileWorker/Inc/ShaderCompileWorker" />
@@ -2587,7 +2767,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/ShaderCompileWorker/Inc/Sockets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Sockets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public/Android" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/ShaderCompileWorker/Inc/Launch" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/ProfilerService/Public" />
@@ -2648,8 +2827,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Notifications" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/Android" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Views" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Colors" />
@@ -2691,12 +2868,15 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SlateViewer/Inc/SlateCore" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public/Interfaces" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SlateViewer/Inc/ImageWrapper" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SlateViewer/Inc/Projects" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public/IOS" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SlateViewer/Inc/StandaloneRenderer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public" />
@@ -2752,8 +2932,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Notifications" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/Android" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Views" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Colors" />
@@ -2804,13 +2982,16 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SymbolDebugger/Inc/SlateCore" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public/Interfaces" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SymbolDebugger/Inc/ImageWrapper" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorStyle/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorStyle/Public/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorStyle/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SymbolDebugger/Inc/EditorStyle" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorStyle" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public/IOS" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SymbolDebugger/Inc/StandaloneRenderer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public" />
@@ -2916,55 +3097,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/CEF3" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_3.2623.1395.g3034273_linux64" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/llvm/3.5.0/include" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealCodeAnalyzer/Inc/UnrealCodeAnalyzer" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Internationalization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Async" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Concurrency" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Containers" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/GenericPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/HAL" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Logging" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Math" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Modules" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Modules/Boilerplate" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/ProfilingDebugging" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Serialization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Serialization/Csv" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Stats" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/UObject" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Linux" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Blueprint" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Internationalization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Misc" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Serialization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Templates" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealCodeAnalyzer/Inc/CoreUObject" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects/Public/Interfaces" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealCodeAnalyzer/Inc/Projects" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Projects" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public/Dom" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public/Policies" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json/Public/Serialization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealCodeAnalyzer/Inc/Json" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Json" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/ThirdParty/llvm" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Private" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Launch/Public" />
@@ -3099,8 +3231,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Notifications" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/Android" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Views" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Colors" />
@@ -3138,6 +3268,10 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFrontend/Inc/SlateCore" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/SlateCore" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public/Interfaces" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFrontend/Inc/ImageWrapper" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorStyle/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorStyle/Public/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/EditorStyle/Public/Interfaces" />
@@ -3178,7 +3312,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFrontend/Inc/Settings" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Settings" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public/IOS" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFrontend/Inc/StandaloneRenderer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Linux/LinuxCommonStartup/Public" />
@@ -3454,9 +3587,10 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/BootstrapPackagedGame/Inc/BootstrapPackagedGame" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source" />
-    <Include Path="/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Source" />
-    <Include Path="/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RaspDrone_Client" />
-    <Include Path="/home/sbalgass/Documentos/Unreal Projects/RaspDrone_Client/Source/RaspDrone_Client" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source/KantanChartsDatasource/Public" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KantanChartsDatasource" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source/KantanChartsDatasource" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Internationalization" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Core/Public/Async" />
@@ -3487,6 +3621,13 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CoreUObject" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/CoreUObject" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source/KantanChartsSlate/Private" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source/KantanChartsSlate/Public" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Charts" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Interfaces" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source/KantanChartsSlate/Public/Style" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KantanChartsSlate" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source/KantanChartsSlate" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Engine/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Engine/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI" />
@@ -3544,8 +3685,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Notifications" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/Android" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Views" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Colors" />
@@ -3560,6 +3699,10 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Views" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Slate" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Slate" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public/Interfaces" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ImageWrapper" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Messaging/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Messaging/Public/Deprecated" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Messaging/Public/Helpers" />
@@ -3574,6 +3717,9 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ShaderCore/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderCore" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ShaderCore" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UtilityShaders/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UtilityShaders" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UtilityShaders" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AssetRegistry/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AssetRegistry" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AssetRegistry" />
@@ -3625,7 +3771,6 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Features" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Kismet2" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Layers" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Localization" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Settings" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Tests" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Toolkits" />
@@ -3668,13 +3813,9 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintGraph" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/BlueprintGraph" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Android" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Apple" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/HTML5" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Linux" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Windows" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTTP" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UnrealAudio/Public" />
@@ -3688,12 +3829,13 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AutomationController/Public/Interfaces" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationController" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/AutomationController" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Internationalization/Public" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Internationalization/Public/Serialization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Internationalization" />
-    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Internationalization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Localization/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Localization/Public/Serialization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Localization" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Developer/Localization" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Classes" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Public/AssetTypeActions" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/AudioEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/LevelEditor/Public" />
@@ -3736,6 +3878,7 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ClassViewer" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Public/KismetNodes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Public/KismetPins" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GraphEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/GraphEditor" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/ContentBrowser/Public" />
@@ -3757,9 +3900,45 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Kismet" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Editor/Kismet" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothingSystemRuntimeInterface" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntimeInterface" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NetworkReplayStreaming" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Classes" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/Components" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioMixer" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/AudioMixer" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source/KantanChartsUMG/Public" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KantanChartsUMG" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source/KantanChartsUMG" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Animation" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Binding" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Blueprint" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Components" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Slate" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UMG" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/UMG" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public/Compilation" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public/Evaluation" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieScene" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieScene" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Sections" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTracks" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KantanChartsEditor" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Plugins/KantanCharts/Source/KantanChartsEditor" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Source" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RaspDrone_Client" />
+    <Include Path="/home/sbalgass/Proyectos/Drone/RaspDrone_Client/Source/RaspDrone_Client" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Sockets/Public" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Sockets" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Sockets" />
@@ -3770,6 +3949,9 @@
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Networking/Public/Interfaces/Steam" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Networking" />
     <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/Networking" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/JsonUtilities" />
+    <Include Path="/home/sbalgass/apps/UnrealEngine/Engine/Source/Runtime/JsonUtilities" />
   </WorkspaceParserPaths>
   <Project Name="UE4Client" Path="Intermediate/ProjectFiles/UE4Client.project" Active="No" />
   <Project Name="UE4Editor" Path="Intermediate/ProjectFiles/UE4Editor.project" Active="No" />
@@ -3779,18 +3961,17 @@
   <Project Name="BuildPatchTool" Path="Intermediate/ProjectFiles/BuildPatchTool.project" Active="No" />
   <Project Name="CrashReportClient" Path="Intermediate/ProjectFiles/CrashReportClient.project" Active="No" />
   <Project Name="MinidumpDiagnostics" Path="Intermediate/ProjectFiles/MinidumpDiagnostics.project" Active="No" />
-  <Project Name="CrossCompilerTool" Path="Intermediate/ProjectFiles/CrossCompilerTool.project" Active="No" />
   <Project Name="UnrealLaunchDaemon" Path="Intermediate/ProjectFiles/UnrealLaunchDaemon.project" Active="No" />
   <Project Name="DsymExporter" Path="Intermediate/ProjectFiles/DsymExporter.project" Active="No" />
   <Project Name="ShaderCacheTool" Path="Intermediate/ProjectFiles/ShaderCacheTool.project" Active="No" />
   <Project Name="UE4EditorServices" Path="Intermediate/ProjectFiles/UE4EditorServices.project" Active="No" />
   <Project Name="UnrealAtoS" Path="Intermediate/ProjectFiles/UnrealAtoS.project" Active="No" />
+  <Project Name="MayaLiveLinkPlugin" Path="Intermediate/ProjectFiles/MayaLiveLinkPlugin.project" Active="No" />
   <Project Name="ShaderCompileWorker" Path="Intermediate/ProjectFiles/ShaderCompileWorker.project" Active="No" />
   <Project Name="SlateViewer" Path="Intermediate/ProjectFiles/SlateViewer.project" Active="No" />
   <Project Name="SymbolDebugger" Path="Intermediate/ProjectFiles/SymbolDebugger.project" Active="No" />
   <Project Name="TestPAL" Path="Intermediate/ProjectFiles/TestPAL.project" Active="No" />
   <Project Name="UnrealCEFSubProcess" Path="Intermediate/ProjectFiles/UnrealCEFSubProcess.project" Active="No" />
-  <Project Name="UnrealCodeAnalyzer" Path="Intermediate/ProjectFiles/UnrealCodeAnalyzer.project" Active="No" />
   <Project Name="UnrealFileServer" Path="Intermediate/ProjectFiles/UnrealFileServer.project" Active="No" />
   <Project Name="UnrealFrontend" Path="Intermediate/ProjectFiles/UnrealFrontend.project" Active="No" />
   <Project Name="UnrealHeaderTool" Path="Intermediate/ProjectFiles/UnrealHeaderTool.project" Active="No" />
@@ -3811,18 +3992,17 @@
       <Project Name="BuildPatchTool" ConfigName="Debug" />
       <Project Name="CrashReportClient" ConfigName="Debug" />
       <Project Name="MinidumpDiagnostics" ConfigName="Debug" />
-      <Project Name="CrossCompilerTool" ConfigName="Debug" />
       <Project Name="UnrealLaunchDaemon" ConfigName="Debug" />
       <Project Name="DsymExporter" ConfigName="Debug" />
       <Project Name="ShaderCacheTool" ConfigName="Debug" />
       <Project Name="UE4EditorServices" ConfigName="Debug" />
       <Project Name="UnrealAtoS" ConfigName="Debug" />
+      <Project Name="MayaLiveLinkPlugin" ConfigName="Debug" />
       <Project Name="ShaderCompileWorker" ConfigName="Debug" />
       <Project Name="SlateViewer" ConfigName="Debug" />
       <Project Name="SymbolDebugger" ConfigName="Debug" />
       <Project Name="TestPAL" ConfigName="Debug" />
       <Project Name="UnrealCEFSubProcess" ConfigName="Debug" />
-      <Project Name="UnrealCodeAnalyzer" ConfigName="Debug" />
       <Project Name="UnrealFileServer" ConfigName="Debug" />
       <Project Name="UnrealFrontend" ConfigName="Debug" />
       <Project Name="UnrealHeaderTool" ConfigName="Debug" />
@@ -3843,18 +4023,17 @@
       <Project Name="BuildPatchTool" ConfigName="DebugGame" />
       <Project Name="CrashReportClient" ConfigName="DebugGame" />
       <Project Name="MinidumpDiagnostics" ConfigName="DebugGame" />
-      <Project Name="CrossCompilerTool" ConfigName="DebugGame" />
       <Project Name="UnrealLaunchDaemon" ConfigName="DebugGame" />
       <Project Name="DsymExporter" ConfigName="DebugGame" />
       <Project Name="ShaderCacheTool" ConfigName="DebugGame" />
       <Project Name="UE4EditorServices" ConfigName="DebugGame" />
       <Project Name="UnrealAtoS" ConfigName="DebugGame" />
+      <Project Name="MayaLiveLinkPlugin" ConfigName="DebugGame" />
       <Project Name="ShaderCompileWorker" ConfigName="DebugGame" />
       <Project Name="SlateViewer" ConfigName="DebugGame" />
       <Project Name="SymbolDebugger" ConfigName="DebugGame" />
       <Project Name="TestPAL" ConfigName="DebugGame" />
       <Project Name="UnrealCEFSubProcess" ConfigName="DebugGame" />
-      <Project Name="UnrealCodeAnalyzer" ConfigName="DebugGame" />
       <Project Name="UnrealFileServer" ConfigName="DebugGame" />
       <Project Name="UnrealFrontend" ConfigName="DebugGame" />
       <Project Name="UnrealHeaderTool" ConfigName="DebugGame" />
@@ -3875,18 +4054,17 @@
       <Project Name="BuildPatchTool" ConfigName="Development" />
       <Project Name="CrashReportClient" ConfigName="Development" />
       <Project Name="MinidumpDiagnostics" ConfigName="Development" />
-      <Project Name="CrossCompilerTool" ConfigName="Development" />
       <Project Name="UnrealLaunchDaemon" ConfigName="Development" />
       <Project Name="DsymExporter" ConfigName="Development" />
       <Project Name="ShaderCacheTool" ConfigName="Development" />
       <Project Name="UE4EditorServices" ConfigName="Development" />
       <Project Name="UnrealAtoS" ConfigName="Development" />
+      <Project Name="MayaLiveLinkPlugin" ConfigName="Development" />
       <Project Name="ShaderCompileWorker" ConfigName="Development" />
       <Project Name="SlateViewer" ConfigName="Development" />
       <Project Name="SymbolDebugger" ConfigName="Development" />
       <Project Name="TestPAL" ConfigName="Development" />
       <Project Name="UnrealCEFSubProcess" ConfigName="Development" />
-      <Project Name="UnrealCodeAnalyzer" ConfigName="Development" />
       <Project Name="UnrealFileServer" ConfigName="Development" />
       <Project Name="UnrealFrontend" ConfigName="Development" />
       <Project Name="UnrealHeaderTool" ConfigName="Development" />
@@ -3907,18 +4085,17 @@
       <Project Name="BuildPatchTool" ConfigName="Shipping" />
       <Project Name="CrashReportClient" ConfigName="Shipping" />
       <Project Name="MinidumpDiagnostics" ConfigName="Shipping" />
-      <Project Name="CrossCompilerTool" ConfigName="Shipping" />
       <Project Name="UnrealLaunchDaemon" ConfigName="Shipping" />
       <Project Name="DsymExporter" ConfigName="Shipping" />
       <Project Name="ShaderCacheTool" ConfigName="Shipping" />
       <Project Name="UE4EditorServices" ConfigName="Shipping" />
       <Project Name="UnrealAtoS" ConfigName="Shipping" />
+      <Project Name="MayaLiveLinkPlugin" ConfigName="Shipping" />
       <Project Name="ShaderCompileWorker" ConfigName="Shipping" />
       <Project Name="SlateViewer" ConfigName="Shipping" />
       <Project Name="SymbolDebugger" ConfigName="Shipping" />
       <Project Name="TestPAL" ConfigName="Shipping" />
       <Project Name="UnrealCEFSubProcess" ConfigName="Shipping" />
-      <Project Name="UnrealCodeAnalyzer" ConfigName="Shipping" />
       <Project Name="UnrealFileServer" ConfigName="Shipping" />
       <Project Name="UnrealFrontend" ConfigName="Shipping" />
       <Project Name="UnrealHeaderTool" ConfigName="Shipping" />
@@ -3939,18 +4116,17 @@
       <Project Name="BuildPatchTool" ConfigName="Test" />
       <Project Name="CrashReportClient" ConfigName="Test" />
       <Project Name="MinidumpDiagnostics" ConfigName="Test" />
-      <Project Name="CrossCompilerTool" ConfigName="Test" />
       <Project Name="UnrealLaunchDaemon" ConfigName="Test" />
       <Project Name="DsymExporter" ConfigName="Test" />
       <Project Name="ShaderCacheTool" ConfigName="Test" />
       <Project Name="UE4EditorServices" ConfigName="Test" />
       <Project Name="UnrealAtoS" ConfigName="Test" />
+      <Project Name="MayaLiveLinkPlugin" ConfigName="Test" />
       <Project Name="ShaderCompileWorker" ConfigName="Test" />
       <Project Name="SlateViewer" ConfigName="Test" />
       <Project Name="SymbolDebugger" ConfigName="Test" />
       <Project Name="TestPAL" ConfigName="Test" />
       <Project Name="UnrealCEFSubProcess" ConfigName="Test" />
-      <Project Name="UnrealCodeAnalyzer" ConfigName="Test" />
       <Project Name="UnrealFileServer" ConfigName="Test" />
       <Project Name="UnrealFrontend" ConfigName="Test" />
       <Project Name="UnrealHeaderTool" ConfigName="Test" />

@@ -31,11 +31,19 @@ struct FDroneStatus
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
 	int32 NetDown = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
-	int32 Yaw = 0;
+	float Roll = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
-	int32 Pitch = 0;
+	float Pitch = 0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network")
-	int32 Roll = 0;
+	float Yaw = 0;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network|PID")
+	float PIDRollError = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network|PID")
+	float PIDPitchError = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Network|PID")
+	float PIDYawError = 0;
+
 };
 
 class ListenRunnable;
@@ -87,6 +95,9 @@ public:
 
 	UPROPERTY(BlueprintAssignable)
 	FOnMessageReceived OnMessageReceived;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Networking")
+	FDroneStatus droneStatus;
 
 	UPROPERTY(BlueprintReadOnly, Category = "Networking")
 	FString addressConnected;
