@@ -5,6 +5,7 @@
 #include "GameFramework/Actor.h"
 #include "Networking.h"
 #include "ControlStruct.h"
+#include "PIDStruct.h"
 #include "Socket.generated.h"
 
 USTRUCT(BlueprintType)
@@ -48,7 +49,7 @@ struct FDroneStatus
 
 class ListenRunnable;
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMessageReceived, FDroneStatus, message);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMessageReceived, FPIDStruct, message);
 
 UCLASS()
 class RASPDRONE_CLIENT_API ASocket : public AActor {

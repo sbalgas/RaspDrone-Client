@@ -63,6 +63,18 @@ uint32 ListenRunnable::Run() {
 			continue;
 		}
 
+		if (JsonObject->HasField("KPID")) {
+
+			FPIDStruct PID;
+			PID.Type = JsonObject->GetStringField("type");
+			PID.P = JsonObject->GetObjectField("KPID")->GetNumberField("P");
+			PID.I = JsonObject->GetObjectField("KPID")->GetNumberField("I");
+			PID.D = JsonObject->GetObjectField("KPID")->GetNumberField("D");
+
+			OnMessageReceived->Broadcast(PID);	
+			continue;
+		}
+
 		if (JsonObject->HasField("MotorFL")) {
 			droneStatus->MotorFL = JsonObject->GetIntegerField("MotorFL");
 		}
