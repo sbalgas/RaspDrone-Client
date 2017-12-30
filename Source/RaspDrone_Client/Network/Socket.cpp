@@ -56,6 +56,8 @@ bool ASocket::_startTCPReceiver(const FString& address, const int32 port){
 bool ASocket::SendMessageString(FString string){
 	if (!isConnected) return false;
 
+	string = string + FString("\0");
+
 	TCHAR *serializedChar = string.GetCharArray().GetData();
 	int32 size = FCString::Strlen(serializedChar);
 	int32 sent = 0;
