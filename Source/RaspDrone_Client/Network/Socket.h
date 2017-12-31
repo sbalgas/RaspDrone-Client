@@ -6,6 +6,7 @@
 #include "Networking.h"
 #include "ControlStruct.h"
 #include "PIDStruct.h"
+#include "OrderStruct.h"
 #include "Socket.generated.h"
 
 USTRUCT(BlueprintType)
@@ -89,6 +90,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Networking")
 	bool SendMessageControl(FControlStruct control);
+
+	UFUNCTION(BlueprintCallable, Category = "Networking")
+	bool SendMessageOrder(FOrderStruct order);
 
 	UFUNCTION(BlueprintNativeEvent, Category = "Networking")
 	void OnConnected();

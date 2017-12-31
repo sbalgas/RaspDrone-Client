@@ -70,6 +70,11 @@ bool ASocket::SendMessageControl(FControlStruct control){
 	return SendMessageString(message);
 }
 
+bool ASocket::SendMessageOrder(FOrderStruct order){
+	FString message = order.getJsonString();
+	return SendMessageString(message);	
+}
+
 void ASocket::OnConnected_Implementation() {
 	UE_LOG(LogTemp, Warning, TEXT("ON CONNECT"));
 }
